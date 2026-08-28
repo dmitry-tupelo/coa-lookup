@@ -1,7 +1,6 @@
 import { Router } from 'express';
-import path from "node:path";
 import z from 'zod';
-import { PDF_STORAGE_DIR } from '../config.js';
+import { PDF_URL_PREFIX } from '../config.js';
 import { searchByLot } from './coa.queries.js';
 import { getByAccession } from './coa.service.js';
 
@@ -30,10 +29,7 @@ coaRouter.get("/:accession/pdf", async (req, res, next) => {
             res.status(404).json({error: "COA not found"})
             return;
         }
-        const filepath = path.join(PDF_STORAGE_DIR, coa.pdfFilename);
-        res.sendFile(filepath, (error) => {
-            if(error) next(error)
-        })
+        res.redirect(`${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`)
     }
     catch (error) {
         next(error)
