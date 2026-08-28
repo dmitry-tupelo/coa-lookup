@@ -2,7 +2,7 @@ import { getByAccession as getByAccessionQuery, searchByLot as searchByLotQuery 
 import type { Coa } from './coa.types.js';
 
 export async function searchByLot(rawLot: string): Promise<Coa[]> {
-    const normalized = rawLot.trim().toUppercase();
+    const normalized = rawLot.trim().toUpperCase();
     return searchByLotQuery(normalized);
 }
 
