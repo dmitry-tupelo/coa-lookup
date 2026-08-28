@@ -6,7 +6,7 @@ import { errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors({ origin: env.CORS_ORIGIN }));
 app.use(express.json());
 
 app.use("/coa", coaRouter);
