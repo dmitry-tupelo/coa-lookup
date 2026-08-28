@@ -6,8 +6,8 @@
         },
         "backend": {
             "root": "backend",
-            "entrypoint": "dist/index.js",
-            "buildCommand": "npm run build"
+            "framework": "express",
+            "entrypoint": "src/index.ts"
         }
     },
     "rewrites": [

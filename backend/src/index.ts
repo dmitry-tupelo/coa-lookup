@@ -1,6 +1,7 @@
 import cors from "cors";
 import express from "express";
 import { coaRouter } from "./coa/coa.routes.js";
+import { env } from "./env.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
@@ -12,4 +13,4 @@ app.use("/coa", coaRouter);
 
 app.use(errorHandler);
 
-app.listen(3001, () => console.log("API on :3001"));
+app.listen(env.PORT, () => console.log(`API on :${env.PORT}`));
