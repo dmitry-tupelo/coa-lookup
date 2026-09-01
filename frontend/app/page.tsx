@@ -1,4 +1,17 @@
+import { Suspense } from "react";
+
 import { SearchForm } from "@/components/SearchForm";
+
+// Placeholder shown in the prerendered HTML while SearchForm — which reads
+// the ?lot= query param on the client — hydrates.
+function SearchFormFallback() {
+  return (
+    <div className="flex gap-3">
+      <div className="h-[50px] flex-1 rounded-md border border-zinc-300" />
+      <div className="h-[50px] w-[124px] rounded-md bg-zinc-900 opacity-50" />
+    </div>
+  );
+}
 
 const trustPoints = [
   {
@@ -110,7 +123,9 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <SearchForm />
+          <Suspense fallback={<SearchFormFallback />}>
+            <SearchForm />
+          </Suspense>
         </div>
         <p className="mt-3 text-sm text-slate-500">
           LOT numbers are not case-sensitive. Remove any spaces.

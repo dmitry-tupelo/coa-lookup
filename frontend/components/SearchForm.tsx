@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
 
@@ -14,20 +15,29 @@ type Coa = {
 };
 
 export function SearchForm() {
-  const [lot, setLot] = useState("");
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const lotFromUrl = searchParams.get("lot")?.trim() ?? "";
+
+  const [lot, setLot] = useState(lotFromUrl);
   const [results, setResults] = useState<Coa[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [searched, setSearched] = useState(false);
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
+  // Last value we actually looked up, so writing ?lot= to the URL below does
+  // not bounce back through the effect and fire the same search twice.
+  const lastSearched = useRef<string | null>(null);
+
+  const runSearch = useCallback(async (value: string) => {
+    lastSearched.current = value;
     setLoading(true);
     setError(null);
 
     try {
       const res = await fetch(
-        `${API_URL}/coa?lot=${encodeURIComponent(lot)}`
+        `${API_URL}/coa?lot=${encodeURIComponent(value)}`
       );
       if (!res.ok) {
         throw new Error("Search failed");
@@ -41,6 +51,24 @@ export function SearchForm() {
       setLoading(false);
       setSearched(true);
     }
+  }, []);
+
+  // ?lot=LOT123 — the input is seeded above, look it up right away.
+  useEffect(() => {
+    if (!lotFromUrl || lastSearched.current === lotFromUrl) return;
+    runSearch(lotFromUrl);
+  }, [lotFromUrl, runSearch]);
+
+  function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    const value = lot.trim();
+
+    runSearch(value);
+    // Mirror the search into the URL so the result is shareable. `replace`
+    // keeps the back button pointing wherever the visitor came from.
+    router.replace(value ? `${pathname}?lot=${encodeURIComponent(value)}` : pathname, {
+      scroll: false,
+    });
   }
 
   return (

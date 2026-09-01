@@ -1,0 +1,2826 @@
+[
+  {
+    "accessionNumber": "2601270227",
+    "lotNumber": "64003",
+    "productName": "5 Amino 1MQ 10mg",
+    "pdfFilename": "5 Amino 1MQ_10 1_27.pdf",
+    "sourcePath": "COA/5 Amino COA_s/5 Amino 1MQ_10 1_27.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270226",
+    "lotNumber": "64003",
+    "productName": "5 Amino 1MQ 10mg",
+    "pdfFilename": "5 Amino 1MQ_10 1_28.pdf",
+    "sourcePath": "COA/5 Amino COA_s/5 Amino 1MQ_10 1_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110108",
+    "lotNumber": "#62195",
+    "productName": "5 AMINO 10mg",
+    "pdfFilename": "5 Amino_10 11_11.pdf",
+    "sourcePath": "COA/5 Amino COA_s/5 Amino_10 11_11.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110109",
+    "lotNumber": "#621945",
+    "productName": "5 AMINO 10mg",
+    "pdfFilename": "5 Amino_10 11_13.pdf",
+    "sourcePath": "COA/5 Amino COA_s/5 Amino_10 11_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2510280151",
+    "lotNumber": "P25073008",
+    "productName": "AOD-9604 (CHNS)",
+    "pdfFilename": "AOD9604 (CHNS).pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 (CHNS).pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2510280150",
+    "lotNumber": "P25073008",
+    "productName": "AOD 9604",
+    "pdfFilename": "AOD9604 10_28.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 10_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130395",
+    "lotNumber": "P25073008",
+    "productName": "AOD-9604",
+    "pdfFilename": "AOD9604 1_13.1.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 1_13.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130306",
+    "lotNumber": "25080401",
+    "productName": "AOD-9604",
+    "pdfFilename": "AOD9604 1_13.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 1_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130396",
+    "lotNumber": "P25073008",
+    "productName": "AOD-9604",
+    "pdfFilename": "AOD9604 1_16.1.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130307",
+    "lotNumber": "25080401",
+    "productName": "AOD-9604",
+    "pdfFilename": "AOD9604 1_16.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509250110",
+    "lotNumber": "1000-002",
+    "productName": "AOD-9604 10mg",
+    "pdfFilename": "AOD9604_10 9_25.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604_10 9_25.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509250111",
+    "lotNumber": "1000-002",
+    "productName": "AOD-9604 10mg",
+    "pdfFilename": "AOD9604_10 9_28.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604_10 9_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509250108",
+    "lotNumber": "1000-001",
+    "productName": "AOD-9604 5mg",
+    "pdfFilename": "AOD9604_5 9_25.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604_5 9_25.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509250109",
+    "lotNumber": "1000-001",
+    "productName": "AOD-9604 5mg",
+    "pdfFilename": "AOD9604_5 9_28.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD9604_5 9_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2510150101",
+    "lotNumber": "42978",
+    "productName": "AOD 10mg",
+    "pdfFilename": "AOD_10 10_15.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD_10 10_15.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2510150102",
+    "lotNumber": "42978",
+    "productName": "AOD 10mg",
+    "pdfFilename": "AOD_10 10_16.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD_10 10_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110094",
+    "lotNumber": "#79377",
+    "productName": "AOD 5mg",
+    "pdfFilename": "AOD_5 11_11.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD_5 11_11.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110095",
+    "lotNumber": "#79377",
+    "productName": "AOD 5mg",
+    "pdfFilename": "AOD_5 11_13.pdf",
+    "sourcePath": "COA/AOD-9604 COA_s/AOD_5 11_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130332",
+    "lotNumber": "2025090901",
+    "productName": "ARA-290",
+    "pdfFilename": "ARA290 1_13.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290 1_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130333",
+    "lotNumber": "2025090901",
+    "productName": "ARA-290",
+    "pdfFilename": "ARA290 1_16.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2602020498",
+    "lotNumber": "2025090901",
+    "productName": "ARA-290",
+    "pdfFilename": "ARA290 2_4.1.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290 2_4.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2602020499",
+    "lotNumber": "2025090901",
+    "productName": "ARA-290",
+    "pdfFilename": "ARA290 2_4.3.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290 2_4.3.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2602020497",
+    "lotNumber": "2025090901",
+    "productName": "ARA-290",
+    "pdfFilename": "ARA290 2_4.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290 2_4.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270183",
+    "lotNumber": "299811",
+    "productName": "ARA-290 10mg",
+    "pdfFilename": "ARA290_10 1_28.1.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290_10 1_28.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270182",
+    "lotNumber": "299811",
+    "productName": "ARA-290 10mg",
+    "pdfFilename": "ARA290_10 1_28.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290_10 1_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601050182",
+    "lotNumber": "299811",
+    "productName": "ARA290 10mg",
+    "pdfFilename": "ARA290_10 1_7.1.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290_10 1_7.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601050181",
+    "lotNumber": "299811",
+    "productName": "ARA290 10mg",
+    "pdfFilename": "ARA290_10 1_7.pdf",
+    "sourcePath": "COA/ARA-290 COA_s/ARA290_10 1_7.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130334",
+    "lotNumber": "2025090101",
+    "productName": "BPC-157",
+    "pdfFilename": "BPC 157 11_16.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157 11_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130335",
+    "lotNumber": "2025090101",
+    "productName": "BPC-157",
+    "pdfFilename": "BPC 157 1_16.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509150046",
+    "lotNumber": "25032001",
+    "productName": "BPC157",
+    "pdfFilename": "BPC 157 9_16.1.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157 9_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509150045",
+    "lotNumber": "25032001",
+    "productName": "BPC157",
+    "pdfFilename": "BPC 157 9_16.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157 9_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130273",
+    "lotNumber": "22264",
+    "productName": "BPC157 10mg",
+    "pdfFilename": "BPC 157_10 (1).pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_10 (1).pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130274",
+    "lotNumber": "22264",
+    "productName": "BPC157 10mg",
+    "pdfFilename": "BPC 157_10 1_16.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_10 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130276",
+    "lotNumber": "16754",
+    "productName": "BPC157 15mg",
+    "pdfFilename": "BPC 157_15 1_16.1.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_15 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130275",
+    "lotNumber": "16754",
+    "productName": "BPC157 15mg",
+    "pdfFilename": "BPC 157_15 1_16.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_15 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110073",
+    "lotNumber": "#15",
+    "productName": "BCP-157 5mg",
+    "pdfFilename": "BPC 157_5 11_11.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 11_11.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110072",
+    "lotNumber": "#15",
+    "productName": "BCP-157 5mg",
+    "pdfFilename": "BPC 157_5 11_13.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 11_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270199",
+    "lotNumber": "61468",
+    "productName": "BPC-157 5mg",
+    "pdfFilename": "BPC 157_5 1_28.1.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 1_28.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270198",
+    "lotNumber": "61468",
+    "productName": "BPC-157 5mg",
+    "pdfFilename": "BPC 157_5 1_28.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 1_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300283",
+    "lotNumber": "61468",
+    "productName": "BPC 157 5mg",
+    "pdfFilename": "BPC 157_5 2_1.1.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 2_1.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300282",
+    "lotNumber": "61468",
+    "productName": "BPC 157 5mg",
+    "pdfFilename": "BPC 157_5 2_1.pdf",
+    "sourcePath": "COA/BPC-157 COA_s/BPC 157_5 2_1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509220022",
+    "lotNumber": "51841",
+    "productName": "BPC Wolverine",
+    "pdfFilename": "BPC Wolv 9_22.1.pdf",
+    "sourcePath": "COA/Wolverine COA_s/BPC Wolv 9_22.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509220021",
+    "lotNumber": "51841",
+    "productName": "BPC Wolverine",
+    "pdfFilename": "BPC Wolv 9_22.pdf",
+    "sourcePath": "COA/Wolverine COA_s/BPC Wolv 9_22.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509250107",
+    "lotNumber": "20000-001",
+    "productName": "(BPC-157/TB-500/MGF)",
+    "pdfFilename": "BPC Wolv_10 9_28.1.pdf",
+    "sourcePath": "COA/Wolverine COA_s/BPC Wolv_10 9_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509250106",
+    "lotNumber": "20000-001",
+    "productName": "(BPC-157/TB-500/MGF)",
+    "pdfFilename": "BPC Wolv_10 9_28.pdf",
+    "sourcePath": "COA/Wolverine COA_s/BPC Wolv_10 9_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509150032",
+    "lotNumber": "N/A",
+    "productName": "BPC 10mg",
+    "pdfFilename": "BPC_10 9_15.1.pdf",
+    "sourcePath": "COA/BPC COA_s/BPC_10 9_15.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509150031",
+    "lotNumber": "N/A",
+    "productName": "BPC 10mg",
+    "pdfFilename": "BPC_10 9_15.pdf",
+    "sourcePath": "COA/BPC COA_s/BPC_10 9_15.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509150034",
+    "lotNumber": "N/A",
+    "productName": "BPC 15mg",
+    "pdfFilename": "BPC_15 9_15.1.pdf",
+    "sourcePath": "COA/BPC COA_s/BPC_15 9_15.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509150033",
+    "lotNumber": "N/A",
+    "productName": "BPC 15mg",
+    "pdfFilename": "BPC_15 9_15.pdf",
+    "sourcePath": "COA/BPC COA_s/BPC_15 9_15.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300275",
+    "lotNumber": "20643",
+    "productName": "BPC TB 10/10mg",
+    "pdfFilename": "BPC_TB10_10 2_1.1.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB10_10 2_1.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300274",
+    "lotNumber": "20643",
+    "productName": "BPC TB 10/10mg",
+    "pdfFilename": "BPC_TB10_10 2_1.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB10_10 2_1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270207",
+    "lotNumber": "20643",
+    "productName": "BPC-157/TB-500 10/10mg",
+    "pdfFilename": "BPC_TB500_10 (2)1_28.1.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB500_10 (2)1_28.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270206",
+    "lotNumber": "20643",
+    "productName": "BPC-157/TB-500 10/10mg",
+    "pdfFilename": "BPC_TB500_10 1_28.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB500_10 1_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130296",
+    "lotNumber": "22182",
+    "productName": "BPC TB500 10 2.5 1mg",
+    "pdfFilename": "BPC_TB500_2.5 1_16.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB500_2.5 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511180136",
+    "lotNumber": "58216",
+    "productName": "BPC/TB 5/5mg",
+    "pdfFilename": "BPC_TB5_5 11_21.1.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB5_5 11_21.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511180135",
+    "lotNumber": "58216",
+    "productName": "BPC/TB 5/5mg",
+    "pdfFilename": "BPC_TB5_5 11_21.pdf",
+    "sourcePath": "COA/BPC-157-TB-500 COA_s/BPC_TB5_5 11_21.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110063",
+    "lotNumber": "#27153",
+    "productName": "CAG 10mg",
+    "pdfFilename": "CAG_10 11_13.1.pdf",
+    "sourcePath": "COA/Cagrilintide COA_s/CAG_10 11_13.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110062",
+    "lotNumber": "#27153",
+    "productName": "CAG 10mg",
+    "pdfFilename": "CAG_10 11_13.pdf",
+    "sourcePath": "COA/Cagrilintide COA_s/CAG_10 11_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130356",
+    "lotNumber": "25091512",
+    "productName": "CJC -1295 with Dac",
+    "pdfFilename": "CJC 1295 with DAC 1_16.1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC COA_s/CJC 1295 with DAC 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130355",
+    "lotNumber": "25091512",
+    "productName": "CJC -1295 with Dac",
+    "pdfFilename": "CJC 1295 with DAC 1_16.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC COA_s/CJC 1295 with DAC 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509220016",
+    "lotNumber": "001",
+    "productName": "CJC-1295/Ipamorelin 5/5mg",
+    "pdfFilename": "CJC 1295_Ipamorelin_5 9_22.1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC 1295_Ipamorelin_5 9_22.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2509220015",
+    "lotNumber": "001",
+    "productName": "CJC-1295/Ipamorelin 5/5mg",
+    "pdfFilename": "CJC 1295_Ipamorelin_5 9_22.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC 1295_Ipamorelin_5 9_22.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130354",
+    "lotNumber": "25091506",
+    "productName": "CJC-1295 NO DAC",
+    "pdfFilename": "CJC 1295_NO DAC 1_16.1.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130405",
+    "lotNumber": "2025072801-4",
+    "productName": "CJC-1295 No Dac",
+    "pdfFilename": "CJC 1295_NO DAC 1_16.2.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC 1_16.2.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130406",
+    "lotNumber": "2025072801-4",
+    "productName": "CJC-1295 No Dac",
+    "pdfFilename": "CJC 1295_NO DAC 1_16.3.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC 1_16.3.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130353",
+    "lotNumber": "25091506",
+    "productName": "CJC-1295 NO DAC",
+    "pdfFilename": "CJC 1295_NO DAC 1_16.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110069",
+    "lotNumber": "#38693",
+    "productName": "CJC-1295 NO DAC 10mg",
+    "pdfFilename": "CJC 1295_NO DAC_10 11_11.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC_10 11_11.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511110068",
+    "lotNumber": "#38693",
+    "productName": "CJC-1295 NO DAC 10mg",
+    "pdfFilename": "CJC 1295_NO DAC_10 1_13.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC 1295_NO DAC_10 1_13.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511190205",
+    "lotNumber": "41960",
+    "productName": "CJC NO DAC 10mg",
+    "pdfFilename": "CJC NO DAC_10 11_22.1.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC NO DAC_10 11_22.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2511190204",
+    "lotNumber": "41960",
+    "productName": "CJC NO DAC 10mg",
+    "pdfFilename": "CJC NO DAC_10 11_22.pdf",
+    "sourcePath": "COA/CJC 1295 No DAC COA_s/CJC NO DAC_10 11_22.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130298",
+    "lotNumber": "43487",
+    "productName": "CJC No Dac Ipamorelin 5 5mg",
+    "pdfFilename": "CJC No Dac_Ipa_5 1_16.1.pdf",
+    "sourcePath": "COA/CJC 1295 no DAC-Ipamorelin COA_s/CJC No Dac_Ipa_5 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130297",
+    "lotNumber": "43487",
+    "productName": "CJC No Dac Ipamorelin 5 5mg",
+    "pdfFilename": "CJC No Dac_Ipa_5 1_16.pdf",
+    "sourcePath": "COA/CJC 1295 no DAC-Ipamorelin COA_s/CJC No Dac_Ipa_5 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2602020483",
+    "lotNumber": "25120201",
+    "productName": "CJC With DAC",
+    "pdfFilename": "CJC with DAC 2_4.1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC COA_s/CJC with DAC 2_4.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2602020482",
+    "lotNumber": "25120201",
+    "productName": "CJC With DAC",
+    "pdfFilename": "CJC with DAC 2_4.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC COA_s/CJC with DAC 2_4.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270217",
+    "lotNumber": "01023",
+    "productName": "CJC/IPA 5/5mg",
+    "pdfFilename": "CJC_Ipa5_5 1_28.1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC_Ipa5_5 1_28.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601270216",
+    "lotNumber": "01023",
+    "productName": "CJC/IPA 5/5mg",
+    "pdfFilename": "CJC_Ipa5_5 1_28.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC_Ipa5_5 1_28.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300273",
+    "lotNumber": "01023",
+    "productName": "CJC/IPA 5/5mg",
+    "pdfFilename": "CJC_Ipa5_5 2_1.1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC_Ipa5_5 2_1.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601300272",
+    "lotNumber": "01023",
+    "productName": "CJC/IPA 5/5mg",
+    "pdfFilename": "CJC_Ipa5_5 2_1.pdf",
+    "sourcePath": "COA/CJC 1295 with DAC-Ipamorelin COA_s/CJC_Ipa5_5 2_1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130339",
+    "lotNumber": "P25091311",
+    "productName": "Cagrilintide",
+    "pdfFilename": "Cagrilintide 1_16.1.pdf",
+    "sourcePath": "COA/Cagrilintide COA_s/Cagrilintide 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130338",
+    "lotNumber": "P25091311",
+    "productName": "Cagrilintide",
+    "pdfFilename": "Cagrilintide 1_16.pdf",
+    "sourcePath": "COA/Cagrilintide COA_s/Cagrilintide 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130309",
+    "lotNumber": "2025102701-5",
+    "productName": "DSIP",
+    "pdfFilename": "DSIP 1_16.1.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP 1_16.1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601130347",
+    "lotNumber": "2025061901-1",
+    "productName": "DSIP",
+    "pdfFilename": "DSIP 1_16.2.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP 1_16.2.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601130348",
+    "lotNumber": "2025061901-1",
+    "productName": "DSIP",
+    "pdfFilename": "DSIP 1_16.3.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP 1_16.3.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601130308",
+    "lotNumber": "2025102701-5",
+    "productName": "DSIP",
+    "pdfFilename": "DSIP 1_16.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP 1_16.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601270201",
+    "lotNumber": "72461",
+    "productName": "DSIP 2mg",
+    "pdfFilename": "DSIP_2 1_28.1.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_2 1_28.1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601270200",
+    "lotNumber": "72461",
+    "productName": "DSIP 2mg",
+    "pdfFilename": "DSIP_2 1_28.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_2 1_28.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601300267",
+    "lotNumber": "72461",
+    "productName": "DSIP 2mg",
+    "pdfFilename": "DSIP_2 2_1.1.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_2 2_1.1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601300266",
+    "lotNumber": "72461",
+    "productName": "DSIP 2mg",
+    "pdfFilename": "DSIP_2 2_1.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_2 2_1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2511110071",
+    "lotNumber": "#54981",
+    "productName": "DSIP 5mg",
+    "pdfFilename": "DSIP_5 11_13.1.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_5 11_13.1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2511110070",
+    "lotNumber": "#54981",
+    "productName": "DSIP 5mg",
+    "pdfFilename": "DSIP_5 11_13.pdf",
+    "sourcePath": "COA/DSIP COA_s/DSIP_5 11_13.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601210285",
+    "lotNumber": "63294",
+    "productName": "DSIP Selank 10 2mg",
+    "pdfFilename": "DSIP_Selank_10 1_23.1.pdf",
+    "sourcePath": "COA/DSIP Selank COA_s/DSIP_Selank_10 1_23.1.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601210284",
+    "lotNumber": "63294",
+    "productName": "DSIP Selank 10 2mg",
+    "pdfFilename": "DSIP_Selank_10 1_23.pdf",
+    "sourcePath": "COA/DSIP Selank COA_s/DSIP_Selank_10 1_23.pdf",
+    "source": "pdf"
+  },
+  {
+    "accessionNumber": "2601130400",
+    "lotNumber": "800107-25051202",
+    "productName": "Dihexa",
+    "pdfFilename": "Dihexa 1_16.1.pdf",
+    "sourcePath": "COA/Dihexa COA_s/Dihexa 1_16.1.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130399",
+    "lotNumber": "800107-25051202",
+    "productName": "Dihexa",
+    "pdfFilename": "Dihexa 1_16.pdf",
+    "sourcePath": "COA/Dihexa COA_s/Dihexa 1_16.pdf",
+    "source": "1.xlsx"
+  },
+  {
+    "accessionNumber": "2601130336",
+    "lotNumber": "25092916",
+    "productName": "Epitalon Lot 25092916",
+    "pdfFilename": "Epitalon 1_16.2.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epitalon 1_16.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130337",
+    "lotNumber": "25092916",
+    "productName": "Epitalon Lot 25092916",
+    "pdfFilename": "Epitalon 1_16.3.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epitalon 1_16.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190213",
+    "lotNumber": "84813",
+    "productName": "Epithalon 20mg Lot 84813",
+    "pdfFilename": "Epithalon_20 11_22.1.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 11_22.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190212",
+    "lotNumber": "84813",
+    "productName": "Epithalon 20mg Lot 84813",
+    "pdfFilename": "Epithalon_20 11_22.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 11_22.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270209",
+    "lotNumber": "10062",
+    "productName": "Epithalon 20mg Lot 10062",
+    "pdfFilename": "Epithalon_20 1_28.1.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270208",
+    "lotNumber": "10062",
+    "productName": "Epithalon 20mg Lot 10062",
+    "pdfFilename": "Epithalon_20 1_28.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300285",
+    "lotNumber": "10062",
+    "productName": "Epithalon 20mg Lot 10062",
+    "pdfFilename": "Epithalon_20 2_1.1.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300284",
+    "lotNumber": "10062",
+    "productName": "Epithalon 20mg Lot 10062",
+    "pdfFilename": "Epithalon_20 2_1.pdf",
+    "sourcePath": "COA/Epitalon COA_s/Epithalon_20 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130404",
+    "lotNumber": "202502",
+    "productName": "GHK-CU Lot 202502",
+    "pdfFilename": "GHK Cu 1_16.1.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130403",
+    "lotNumber": "202502",
+    "productName": "GHK-CU Lot 202502",
+    "pdfFilename": "GHK Cu 1_16.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602020501",
+    "lotNumber": "250502",
+    "productName": "GHK-CU Lot 250502",
+    "pdfFilename": "GHK Cu 2_4.1.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 2_4.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602020500",
+    "lotNumber": "250502",
+    "productName": "GHK-CU Lot 250502",
+    "pdfFilename": "GHK Cu 2_4.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 2_4.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210313",
+    "lotNumber": "24359",
+    "productName": "GHK CU 50 10mg Lot 24359",
+    "pdfFilename": "GHK Cu 50_10 1_23.1.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 50_10 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210312",
+    "lotNumber": "24359",
+    "productName": "GHK CU 50 10mg Lot 24359",
+    "pdfFilename": "GHK Cu 50_10 1_23.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu 50_10 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270222",
+    "lotNumber": "22201",
+    "productName": "GHK-CU 10mg Lot 22201",
+    "pdfFilename": "GHK Cu_10 1_28.1.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu_10 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190215",
+    "lotNumber": "24998",
+    "productName": "GHK-CU 100mg Lot 24998",
+    "pdfFilename": "GHK Cu_100 1_22.1.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu_100 1_22.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270223",
+    "lotNumber": "22201",
+    "productName": "GHK-CU 100mg Lot 22201",
+    "pdfFilename": "GHK Cu_100 1_28.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu_100 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602060058",
+    "lotNumber": "22201",
+    "productName": "GHK-Cu 100mg Lot 22201",
+    "pdfFilename": "GHK Cu_100 2_10.pdf",
+    "sourcePath": "COA/GHK-CU COA_s/GHK Cu_100 2_10.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509220018",
+    "lotNumber": "67214",
+    "productName": "GHKCu/BPC-157/TB4 Lot 67214",
+    "pdfFilename": "GHK_BPC_TB4 9_22.1.pdf",
+    "sourcePath": "COA/Glow COA_s/GHK_BPC_TB4 9_22.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509220025",
+    "lotNumber": "94365",
+    "productName": "GHKCu/BPC-157/TB4 Lot 94365",
+    "pdfFilename": "GHK_BPC_TB4 9_22.2.pdf",
+    "sourcePath": "COA/Glow COA_s/GHK_BPC_TB4 9_22.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509220026",
+    "lotNumber": "94365",
+    "productName": "GHKCu/BPC-157/TB4 Lot 94365",
+    "pdfFilename": "GHK_BPC_TB4 9_22.3.pdf",
+    "sourcePath": "COA/Glow COA_s/GHK_BPC_TB4 9_22.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509220017",
+    "lotNumber": "67214",
+    "productName": "GHKCu/BPC-157/TB4 Lot 67214",
+    "pdfFilename": "GHK_BPC_TB4 9_22.pdf",
+    "sourcePath": "COA/Glow COA_s/GHK_BPC_TB4 9_22.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130374",
+    "lotNumber": "2025022401-1",
+    "productName": "GHRP-2 Lot 2025022401-1",
+    "pdfFilename": "GHRP-2 1_16.1.pdf",
+    "sourcePath": "COA/GHRP-2 COA_s/GHRP-2 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130373",
+    "lotNumber": "2025022401-1",
+    "productName": "GHRP-2 Lot 2025022401-1",
+    "pdfFilename": "GHRP-2 1_16.pdf",
+    "sourcePath": "COA/GHRP-2 COA_s/GHRP-2 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130352",
+    "lotNumber": "2024062801-1",
+    "productName": "GHRP-6 Lot 2024062801-1",
+    "pdfFilename": "GHRP-6 1_16.1.pdf",
+    "sourcePath": "COA/GHRP-6 COA_s/GHRP-6 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130351",
+    "lotNumber": "2024062801-1",
+    "productName": "GHRP-6 Lot 2024062801-1",
+    "pdfFilename": "GHRP-6 1_16.pdf",
+    "sourcePath": "COA/GHRP-6 COA_s/GHRP-6 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190217",
+    "lotNumber": "20002",
+    "productName": "GLOW BLEND 10/10/50mg Lot 20002",
+    "pdfFilename": "GLOW_10 11_22.1.pdf",
+    "sourcePath": "COA/Glow COA_s/GLOW_10 11_22.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190216",
+    "lotNumber": "20002",
+    "productName": "Lot 20002",
+    "pdfFilename": "GLOW_10 11_22.pdf",
+    "sourcePath": "COA/Glow COA_s/GLOW_10 11_22.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270181",
+    "lotNumber": "70602",
+    "productName": "Glow Blend 70mg Lot 70602",
+    "pdfFilename": "GLOW_70 1_28.1.pdf",
+    "sourcePath": "COA/Glow COA_s/GLOW_70 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270180",
+    "lotNumber": "70602",
+    "productName": "Glow Blend 70mg Lot 70602",
+    "pdfFilename": "GLOW_70 1_28.pdf",
+    "sourcePath": "COA/Glow COA_s/GLOW_70 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130392",
+    "lotNumber": "2025091701",
+    "productName": "GLP-1 Lot 2025091701",
+    "pdfFilename": "GLP-1 1_16.1.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/GLP-1 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130391",
+    "lotNumber": "2025091701",
+    "productName": "GLP-1 Lot 2025091701",
+    "pdfFilename": "GLP-1 1_16.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/GLP-1 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602060060",
+    "lotNumber": "11324",
+    "productName": "GLP 2 60mg Lot 11324",
+    "pdfFilename": "GLP-2_60 2_10.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/GLP-2_60 2_10.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602060059",
+    "lotNumber": "11324",
+    "productName": "GLP2 60mg Lot 11324",
+    "pdfFilename": "GLP-2_60 2_10.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/GLP-2_60 2_10.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270219",
+    "lotNumber": "99701",
+    "productName": "GLP-3 20mg Lot 99701",
+    "pdfFilename": "GLP-3_20 1_28.1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/GLP-3_20 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270218",
+    "lotNumber": "99701",
+    "productName": "GLP-3 20mg Lot 99701",
+    "pdfFilename": "GLP-3_20 1_28.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/GLP-3_20 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300255",
+    "lotNumber": "70602",
+    "productName": "Glow Lot 70602",
+    "pdfFilename": "Glow 2_1.1.pdf",
+    "sourcePath": "COA/Glow COA_s/Glow 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300254",
+    "lotNumber": "70602",
+    "productName": "Glow Lot 70602",
+    "pdfFilename": "Glow 2_1.pdf",
+    "sourcePath": "COA/Glow COA_s/Glow 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509150057",
+    "lotNumber": "20250324",
+    "productName": "HCG Lot 20250324",
+    "pdfFilename": "HCG.pdf",
+    "sourcePath": "COA/HCG COA_s/HCG.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2509250113",
+    "lotNumber": "1006-001",
+    "productName": "HCG 5000IU Lot 1006-001",
+    "pdfFilename": "HCG_5000.pdf",
+    "sourcePath": "COA/HCG COA_s/HCG_5000.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510280147",
+    "lotNumber": "20250303",
+    "productName": "IGF-1 LR3 Lot 20250303",
+    "pdfFilename": "IGFILR3 10_31.1.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 10_31.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510280146",
+    "lotNumber": "20250303",
+    "productName": "IGF-1 LR3 Lot 20250303",
+    "pdfFilename": "IGFILR3 10_31.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 10_31.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130341",
+    "lotNumber": "25121904",
+    "productName": "IGF-LR3 Lot 25121904",
+    "pdfFilename": "IGFILR3 1_16.1.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130340",
+    "lotNumber": "25121904",
+    "productName": "IGF-LR3 Lot 25121904",
+    "pdfFilename": "IGFILR3 1_16.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602020491",
+    "lotNumber": "25110706",
+    "productName": "IGF1-LR3 Lot 25110706",
+    "pdfFilename": "IGFILR3 2_4.1.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 2_4.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2602020490",
+    "lotNumber": "25110706",
+    "productName": "IGF1-LR3 Lot 25110706",
+    "pdfFilename": "IGFILR3 2_4.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3 2_4.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510150092",
+    "lotNumber": "72427",
+    "productName": "IGF-1 LR3 1mg Lot 72427",
+    "pdfFilename": "IGFILR3_1 10_16.1.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3_1 10_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510150091",
+    "lotNumber": "72427",
+    "productName": "IGF-1 LR3 1mg Lot 72427",
+    "pdfFilename": "IGFILR3_1 10_16.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3_1 10_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110083",
+    "lotNumber": "95236",
+    "productName": "IGF LR3 1mg Lot #95236",
+    "pdfFilename": "IGFILR3_1 11_13.1.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3_1 11_13.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110082",
+    "lotNumber": "95236",
+    "productName": "IGF LR3 1mg Lot #95236",
+    "pdfFilename": "IGFILR3_1 11_13.pdf",
+    "sourcePath": "COA/IGF-1 LR3 COA_s/IGFILR3_1 11_13.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210303",
+    "lotNumber": "47891",
+    "productName": "IGF1 Motsc 1 10mg Lot 47891",
+    "pdfFilename": "IGFI_Mots-C_10 1_23.1.pdf",
+    "sourcePath": "COA/IGF-1-MOTS-C/IGFI_Mots-C_10 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210302",
+    "lotNumber": "47891",
+    "productName": "IGF1 Motsc 1 10mg Lot 47891",
+    "pdfFilename": "IGFI_Mots-C_10 1_23.pdf",
+    "sourcePath": "COA/IGF-1-MOTS-C/IGFI_Mots-C_10 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270213",
+    "lotNumber": "36319",
+    "productName": "IPA 5mg Lot 36319",
+    "pdfFilename": "Ipa_5 1_28.1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipa_5 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270212",
+    "lotNumber": "36319",
+    "productName": "IPA 5mg Lot 36319",
+    "pdfFilename": "Ipa_5 1_28.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipa_5 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130344",
+    "lotNumber": "202561301-1",
+    "productName": "Ipamorelin Lot 202561301-1",
+    "pdfFilename": "Ipamorelin 1_16.1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130345",
+    "lotNumber": "2025061301-2",
+    "productName": "Ipamorelin Lot 2025061301-2",
+    "pdfFilename": "Ipamorelin 1_16.2.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin 1_16.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130346",
+    "lotNumber": "2025061301-2",
+    "productName": "Ipamorelin Lot 2025061301-2",
+    "pdfFilename": "Ipamorelin 1_16.3.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin 1_16.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130343",
+    "lotNumber": "202561301-1",
+    "productName": "Ipamorelin Lot 202561301-1",
+    "pdfFilename": "Ipamorelin 1_16.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510150108",
+    "lotNumber": "25462",
+    "productName": "Ipamorelin 10mg Lot 25462",
+    "pdfFilename": "Ipamorelin_10 10_16.1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_10 10_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2510150107",
+    "lotNumber": "25462",
+    "productName": "Ipamorelin 10mg Lot 25462",
+    "pdfFilename": "Ipamorelin_10 10_16.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_10 10_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110127",
+    "lotNumber": "73859",
+    "productName": "IPAMORELIN 10mg Lot #73859",
+    "pdfFilename": "Ipamorelin_10 11_13.1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_10 11_13.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110126",
+    "lotNumber": "73859",
+    "productName": "IPAMORELIN 10mg Lot #73859",
+    "pdfFilename": "Ipamorelin_10 11_13.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_10 11_13.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300263",
+    "lotNumber": "36319",
+    "productName": "Ipamorelin 5mg Lot 36319",
+    "pdfFilename": "Ipamorelin_5 2_1.1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_5 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300262",
+    "lotNumber": "36319",
+    "productName": "Ipamorelin 5mg Lot 36319",
+    "pdfFilename": "Ipamorelin_5 2_1.pdf",
+    "sourcePath": "COA/Ipamorelin COA_s/Ipamorelin_5 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270225",
+    "lotNumber": "N/A",
+    "productName": "Klow 100/20/20/20",
+    "pdfFilename": "KLOW_100 1_28.1.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_100 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270224",
+    "lotNumber": "N/A",
+    "productName": "Klow 100/20/20/20",
+    "pdfFilename": "KLOW_100 1_28.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_100 1_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110101",
+    "lotNumber": "#29142",
+    "productName": "KLOW BLEND",
+    "pdfFilename": "KLOW_50 11_13.1.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 11_13.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110105",
+    "lotNumber": "#29142",
+    "productName": "KLOW BLEND",
+    "pdfFilename": "KLOW_50 11_13.5.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 11_13.5.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110100",
+    "lotNumber": "#29142",
+    "productName": "KLOW BLEND",
+    "pdfFilename": "KLOW_50 11_13.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 11_13.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190219",
+    "lotNumber": "19746",
+    "productName": "KLOW BLEND",
+    "pdfFilename": "KLOW_50 11_22.1.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 11_22.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190218",
+    "lotNumber": "19746",
+    "productName": "KLOW BLEND",
+    "pdfFilename": "KLOW_50 11_22.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 11_22.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130300",
+    "lotNumber": "32123",
+    "productName": "Klow 50 10 10 10mg",
+    "pdfFilename": "KLOW_50 1_16.1.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130299",
+    "lotNumber": "32123",
+    "productName": "Klow 50 10 10 10mg",
+    "pdfFilename": "KLOW_50 1_16.pdf",
+    "sourcePath": "COA/Klow COA_s/KLOW_50 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130370",
+    "lotNumber": "25082508",
+    "productName": "KPV",
+    "pdfFilename": "KPV 1_16.1.pdf",
+    "sourcePath": "COA/KPV/KPV 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130369",
+    "lotNumber": "25082508",
+    "productName": "KPV",
+    "pdfFilename": "KPV 1_16.pdf",
+    "sourcePath": "COA/KPV/KPV 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020477",
+    "lotNumber": "25100068-1",
+    "productName": "KPV",
+    "pdfFilename": "KPV 2_4.1.pdf",
+    "sourcePath": "COA/KPV/KPV 2_4.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020476",
+    "lotNumber": "25100068-1",
+    "productName": "KPV",
+    "pdfFilename": "KPV 2_4.pdf",
+    "sourcePath": "COA/KPV/KPV 2_4.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110113",
+    "lotNumber": "#42833",
+    "productName": "KPV 10mg",
+    "pdfFilename": "KPV_10 11_13.1.pdf",
+    "sourcePath": "COA/KPV/KPV_10 11_13.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110112",
+    "lotNumber": "#42833",
+    "productName": "KPV 10mg",
+    "pdfFilename": "KPV_10 11_13.pdf",
+    "sourcePath": "COA/KPV/KPV_10 11_13.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190211",
+    "lotNumber": "1009",
+    "productName": "KPV 5mg",
+    "pdfFilename": "KPV_5 11_22.1.pdf",
+    "sourcePath": "COA/KPV/KPV_5 11_22.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190210",
+    "lotNumber": "1009",
+    "productName": "KPV 5mg",
+    "pdfFilename": "KPV_5 11_22.pdf",
+    "sourcePath": "COA/KPV/KPV_5 11_22.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511050085",
+    "lotNumber": "2025081901",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 11_8.1.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 11_8.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511050083",
+    "lotNumber": "2025081901",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 11_8.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 11_8.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130294",
+    "lotNumber": "13742",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 1_16.1.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130371",
+    "lotNumber": "2025081901-2",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 1_16.2.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130372",
+    "lotNumber": "2025081901-2",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 1_16.3.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130293",
+    "lotNumber": "13742",
+    "productName": "Kisspeptin 10mg",
+    "pdfFilename": "Kisspeptin_10 1_16.pdf",
+    "sourcePath": "COA/Kisspeptin COA_s/Kisspeptin_10 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130329",
+    "lotNumber": "2025062601-1",
+    "productName": "LL-37",
+    "pdfFilename": "LL-37 1_16.1.pdf",
+    "sourcePath": "COA/LL-37 (CAP-18)/LL-37 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130328",
+    "lotNumber": "2025062601-1",
+    "productName": "LL-37",
+    "pdfFilename": "LL-37 1_16.pdf",
+    "sourcePath": "COA/LL-37 (CAP-18)/LL-37 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300271",
+    "lotNumber": "49162",
+    "productName": "LL-37 5mg",
+    "pdfFilename": "LL-37_5 2_1.1.pdf",
+    "sourcePath": "COA/LL-37 (CAP-18)/LL-37_5 2_1.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300270",
+    "lotNumber": "49162",
+    "productName": "LL-37 5mg",
+    "pdfFilename": "LL-37_5 2_1.pdf",
+    "sourcePath": "COA/LL-37 (CAP-18)/LL-37_5 2_1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130331",
+    "lotNumber": "P25050709",
+    "productName": "Liraglutide",
+    "pdfFilename": "Liraglutide 1_16.1.pdf",
+    "sourcePath": "COA/Liraglutide/Liraglutide 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130330",
+    "lotNumber": "P25050709",
+    "productName": "Liraglutide",
+    "pdfFilename": "Liraglutide 1_16.pdf",
+    "sourcePath": "COA/Liraglutide/Liraglutide 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020487",
+    "lotNumber": "25111901-02",
+    "productName": "MGF",
+    "pdfFilename": "MGF 2_4.1.pdf",
+    "sourcePath": "COA/MGF/MGF 2_4.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020486",
+    "lotNumber": "25111901-02",
+    "productName": "MGF",
+    "pdfFilename": "MGF 2_4.pdf",
+    "sourcePath": "COA/MGF/MGF 2_4.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509150042",
+    "lotNumber": "24100901",
+    "productName": "MGF",
+    "pdfFilename": "MGF 9_16.1.pdf",
+    "sourcePath": "COA/MGF/MGF 9_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509150041",
+    "lotNumber": "24100901",
+    "productName": "MGF",
+    "pdfFilename": "MGF 9_16.pdf",
+    "sourcePath": "COA/MGF/MGF 9_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130368",
+    "lotNumber": "202573001-1",
+    "productName": "Mots-c",
+    "pdfFilename": "MOTS-C 1_16.1.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130407",
+    "lotNumber": "2025111301-1",
+    "productName": "Mots-C",
+    "pdfFilename": "MOTS-C 1_16.2.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130408",
+    "lotNumber": "2025111301-1",
+    "productName": "Mots-C",
+    "pdfFilename": "MOTS-C 1_16.3.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130367",
+    "lotNumber": "202573001-1",
+    "productName": "Mots-c",
+    "pdfFilename": "MOTS-C 1_16.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130290",
+    "lotNumber": "22697",
+    "productName": "MOTSC 10mg",
+    "pdfFilename": "MOTS-C_10 1_16.1.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130289",
+    "lotNumber": "22697",
+    "productName": "MOTSC 10mg",
+    "pdfFilename": "MOTS-C_10 1_16.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210263",
+    "lotNumber": "97321",
+    "productName": "Mots C 10mg",
+    "pdfFilename": "MOTS-C_10 1_23.1.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210262",
+    "lotNumber": "97321",
+    "productName": "Mots C 10mg",
+    "pdfFilename": "MOTS-C_10 1_23.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270203",
+    "lotNumber": "29255",
+    "productName": "Mots-c 10mg",
+    "pdfFilename": "MOTS-C_10 1_28.1.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270202",
+    "lotNumber": "29255",
+    "productName": "Mots-c 10mg",
+    "pdfFilename": "MOTS-C_10 1_28.pdf",
+    "sourcePath": "COA/MOTS-C/MOTS-C_10 1_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130319",
+    "lotNumber": "2025082801-1",
+    "productName": "Melanotan",
+    "pdfFilename": "Melanotan 1_16.1.pdf",
+    "sourcePath": "COA/Melanotan 1 COA_s/Melanotan 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130318",
+    "lotNumber": "2025082801-1",
+    "productName": "Melanotan",
+    "pdfFilename": "Melanotan 1_16.pdf",
+    "sourcePath": "COA/Melanotan 1 COA_s/Melanotan 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2510150100",
+    "lotNumber": "5498",
+    "productName": "Melanotan 1",
+    "pdfFilename": "Melanotan1 10_16.1.pdf",
+    "sourcePath": "COA/Melanotan 1 COA_s/Melanotan1 10_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2510150099",
+    "lotNumber": "5498",
+    "productName": "Melanotan 1",
+    "pdfFilename": "Melanotan1 10_16.pdf",
+    "sourcePath": "COA/Melanotan 1 COA_s/Melanotan1 10_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130321",
+    "lotNumber": "2025092601-2",
+    "productName": "Melanotan 2",
+    "pdfFilename": "Melanotan2 1_16.1.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130381",
+    "lotNumber": "2025081501-1",
+    "productName": "Melanotan 2",
+    "pdfFilename": "Melanotan2 1_16.2.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130382",
+    "lotNumber": "2025081501-1",
+    "productName": "Melanotan 2",
+    "pdfFilename": "Melanotan2 1_16.3.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130320",
+    "lotNumber": "2025092601-2",
+    "productName": "Melanotan 2",
+    "pdfFilename": "Melanotan2 1_16.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210291",
+    "lotNumber": "31460",
+    "productName": "Melanotan 2 10mg",
+    "pdfFilename": "Melanotan2_10 1_23.1.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2_10 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210290",
+    "lotNumber": "31460",
+    "productName": "Melanotan 2 10mg",
+    "pdfFilename": "Melanotan2_10 1_23.pdf",
+    "sourcePath": "COA/Melanotan 2/Melanotan2_10 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511180134",
+    "lotNumber": "34361",
+    "productName": "NAD+ 1000mg",
+    "pdfFilename": "NAD+_1000 11_21.1.pdf",
+    "sourcePath": "COA/NAD+ COA_s/NAD+_1000 11_21.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511180133",
+    "lotNumber": "34361",
+    "productName": "NAD+ 1000mg",
+    "pdfFilename": "NAD+_1000 11_21.pdf",
+    "sourcePath": "COA/NAD+ COA_s/NAD+_1000 11_21.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601050190",
+    "lotNumber": "18869",
+    "productName": "NAD 1000mg",
+    "pdfFilename": "NAD_1000 1_7.1.pdf",
+    "sourcePath": "COA/NAD+ COA_s/NAD_1000 1_7.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601050189",
+    "lotNumber": "18869",
+    "productName": "NAD 1000mg",
+    "pdfFilename": "NAD_1000 1_7.pdf",
+    "sourcePath": "COA/NAD+ COA_s/NAD_1000 1_7.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020479",
+    "lotNumber": "25042206",
+    "productName": "Oxytocin",
+    "pdfFilename": "Oxytocin 2_4.1.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin 2_4.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020478",
+    "lotNumber": "25042206",
+    "productName": "Oxytocin",
+    "pdfFilename": "Oxytocin 2_4.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin 2_4.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130280",
+    "lotNumber": "90229",
+    "productName": "Oxytocin 2mg",
+    "pdfFilename": "Oxytocin_2 1_16.1.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin_2 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130349",
+    "lotNumber": "25042206",
+    "productName": "Oxytocin 2mg",
+    "pdfFilename": "Oxytocin_2 1_16.2.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin_2 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130350",
+    "lotNumber": "25042206",
+    "productName": "Oxytocin 2mg",
+    "pdfFilename": "Oxytocin_2 1_16.3.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin_2 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130279",
+    "lotNumber": "90229",
+    "productName": "Oxytocin 2mg",
+    "pdfFilename": "Oxytocin_2 1_16.pdf",
+    "sourcePath": "COA/Oxytocin/Oxytocin_2 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130327",
+    "lotNumber": "800066-25101303",
+    "productName": "PT-141",
+    "pdfFilename": "PT 141 1_16.1.pdf",
+    "sourcePath": "COA/PT-141/PT 141 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130326",
+    "lotNumber": "800066-25101303",
+    "productName": "PT-141",
+    "pdfFilename": "PT 141 1_16.pdf",
+    "sourcePath": "COA/PT-141/PT 141 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020485",
+    "lotNumber": "25123105",
+    "productName": "PT-141",
+    "pdfFilename": "PT 141 2_4.1.pdf",
+    "sourcePath": "COA/PT-141/PT 141 2_4.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020484",
+    "lotNumber": "25123105",
+    "productName": "PT-141",
+    "pdfFilename": "PT 141 2_4.pdf",
+    "sourcePath": "COA/PT-141/PT 141 2_4.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511180139",
+    "lotNumber": "25101303",
+    "productName": "PT-141 10mg",
+    "pdfFilename": "PT 141_10 11_21.2.pdf",
+    "sourcePath": "COA/PT-141/PT 141_10 11_21.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511180137",
+    "lotNumber": "25101303",
+    "productName": "PT-141 10mg",
+    "pdfFilename": "PT 141_10 11_21.pdf",
+    "sourcePath": "COA/PT-141/PT 141_10 11_21.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130402",
+    "lotNumber": "2025081101",
+    "productName": "Pinealon",
+    "pdfFilename": "Pinealon 1_16.1.pdf",
+    "sourcePath": "COA/Pinealon/Pinealon 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130401",
+    "lotNumber": "2025081101",
+    "productName": "Pinealon",
+    "pdfFilename": "Pinealon 1_16.pdf",
+    "sourcePath": "COA/Pinealon/Pinealon 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130271",
+    "lotNumber": "06144",
+    "productName": "Reta 10mg Lot 06144",
+    "pdfFilename": "RETA_10 1_16.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_10 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210264",
+    "lotNumber": "67801",
+    "productName": "Reta 10mg Lot 67801",
+    "pdfFilename": "RETA_10 1_23.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_10 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601050184",
+    "lotNumber": "06144",
+    "productName": "RETA 10mg Lot 06144",
+    "pdfFilename": "RETA_10 1_7.1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_10 1_7.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601050183",
+    "lotNumber": "06144",
+    "productName": "RETA 10mg Lot 06144",
+    "pdfFilename": "RETA_10 1_7.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_10 1_7.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601050185",
+    "lotNumber": "32247",
+    "productName": "RETA 30mg Lot 32247",
+    "pdfFilename": "RETA_30 1_7.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_30 1_7.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210261",
+    "lotNumber": "67802",
+    "productName": "Reta 40mg Lot 67802",
+    "pdfFilename": "RETA_40 1_23.1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_40 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210260",
+    "lotNumber": "67802",
+    "productName": "Reta 40mg Lot 67802",
+    "pdfFilename": "RETA_40 1_23.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_40 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300277",
+    "lotNumber": "92216",
+    "productName": "RETA 5 Lot 92216",
+    "pdfFilename": "RETA_5 2_1.1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_5 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300276",
+    "lotNumber": "92216",
+    "productName": "RETA 5 Lot 92216",
+    "pdfFilename": "RETA_5 2_1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_5 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210259",
+    "lotNumber": "67804",
+    "productName": "Reta 50mg Lot 67804",
+    "pdfFilename": "RETA_50 1_23.3.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_50 1_23.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601050188",
+    "lotNumber": "867312",
+    "productName": "RETA 60mg Lot 867312",
+    "pdfFilename": "RETA_60 1_7.1.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_60 1_7.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601050187",
+    "lotNumber": "867312",
+    "productName": "RETA 60mg Lot 867312",
+    "pdfFilename": "RETA_60 1_7.pdf",
+    "sourcePath": "COA/GLP-3 (Reta)/RETA_60 1_7.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130323",
+    "lotNumber": "2025090101-3",
+    "productName": "SS-31",
+    "pdfFilename": "SS31 1_16.1.pdf",
+    "sourcePath": "COA/SS-31/SS31 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130322",
+    "lotNumber": "2025090101-3",
+    "productName": "SS-31",
+    "pdfFilename": "SS31 1_16.pdf",
+    "sourcePath": "COA/SS-31/SS31 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020495",
+    "lotNumber": "2025090101-3",
+    "productName": "SS-31",
+    "pdfFilename": "SS31 2_4.1.pdf",
+    "sourcePath": "COA/SS-31/SS31 2_4.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020496",
+    "lotNumber": "2025090101-3",
+    "productName": "SS-31",
+    "pdfFilename": "SS31 2_4.2.pdf",
+    "sourcePath": "COA/SS-31/SS31 2_4.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2602020494",
+    "lotNumber": "2025090101-3",
+    "productName": "SS-31",
+    "pdfFilename": "SS31 2_4.pdf",
+    "sourcePath": "COA/SS-31/SS31 2_4.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130266",
+    "lotNumber": "61424",
+    "productName": "SS31 10mg",
+    "pdfFilename": "SS31_10 1_16.1.pdf",
+    "sourcePath": "COA/SS-31/SS31_10 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210269",
+    "lotNumber": "10269",
+    "productName": "SS31 10mg",
+    "pdfFilename": "SS31_10 1_23.1.pdf",
+    "sourcePath": "COA/SS-31/SS31_10 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210268",
+    "lotNumber": "10269",
+    "productName": "SS31 10mg",
+    "pdfFilename": "SS31_10 1_23.pdf",
+    "sourcePath": "COA/SS-31/SS31_10 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210309",
+    "lotNumber": "18162",
+    "productName": "SS31 50mg",
+    "pdfFilename": "SS31_50 1_23.1.pdf",
+    "sourcePath": "COA/SS-31/SS31_50 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210308",
+    "lotNumber": "18162",
+    "productName": "SS31 50mg",
+    "pdfFilename": "SS31_50 1_23.pdf",
+    "sourcePath": "COA/SS-31/SS31_50 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270185",
+    "lotNumber": "727993",
+    "productName": "SS-31 50mg",
+    "pdfFilename": "SS31_50 1_28.1.pdf",
+    "sourcePath": "COA/SS-31/SS31_50 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270190",
+    "lotNumber": "18612",
+    "productName": "SS-31 50mg",
+    "pdfFilename": "SS31_50 1_28.2.pdf",
+    "sourcePath": "COA/SS-31/SS31_50 1_28.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601050177",
+    "lotNumber": "727993",
+    "productName": "SS31 50mg",
+    "pdfFilename": "SS31_50 1_7.pdf",
+    "sourcePath": "COA/SS-31/SS31_50 1_7.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130365",
+    "lotNumber": "2025110901-1",
+    "productName": "Selank",
+    "pdfFilename": "Selank 1_16.2.pdf",
+    "sourcePath": "COA/Selank/Selank 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130316",
+    "lotNumber": "2025100601-1",
+    "productName": "Selank",
+    "pdfFilename": "Selank 1_16.pdf",
+    "sourcePath": "COA/Selank/Selank 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130283",
+    "lotNumber": "19276",
+    "productName": "Selank 10mg",
+    "pdfFilename": "Selank_10 1_16.pdf",
+    "sourcePath": "COA/Selank/Selank_10 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210275",
+    "lotNumber": "55101",
+    "productName": "Selank 10mg",
+    "pdfFilename": "Selank_10 1_23.1.pdf",
+    "sourcePath": "COA/Selank/Selank_10 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210274",
+    "lotNumber": "55101",
+    "productName": "Selank 10mg",
+    "pdfFilename": "Selank_10 1_23.pdf",
+    "sourcePath": "COA/Selank/Selank_10 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300279",
+    "lotNumber": "00306",
+    "productName": "Selank 5mg",
+    "pdfFilename": "Selank_5 2_1.1.pdf",
+    "sourcePath": "COA/Selank/Selank_5 2_1.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300278",
+    "lotNumber": "00306",
+    "productName": "Selank 5mg",
+    "pdfFilename": "Selank_5 2_1.pdf",
+    "sourcePath": "COA/Selank/Selank_5 2_1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300269",
+    "lotNumber": "40105",
+    "productName": "Selank/Semax 5/5mg",
+    "pdfFilename": "Selank_Semax5_5 2_1.1.pdf",
+    "sourcePath": "COA/Selank-Semax/Selank_Semax5_5 2_1.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300268",
+    "lotNumber": "40105",
+    "productName": "Selank/Semax 5/5mg",
+    "pdfFilename": "Selank_Semax5_5 2_1.pdf",
+    "sourcePath": "COA/Selank-Semax/Selank_Semax5_5 2_1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210280",
+    "lotNumber": "67803",
+    "productName": "Sema 10mg Lot 67803",
+    "pdfFilename": "Sema_10 1_21.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Sema_10 1_21.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300256",
+    "lotNumber": "31495",
+    "productName": "SEMA 10mg Lot 31495",
+    "pdfFilename": "Sema_10 2_1.1.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Sema_10 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300257",
+    "lotNumber": "31495",
+    "productName": "SEMA 10mg Lot 31495",
+    "pdfFilename": "Sema_10 2_1.2.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Sema_10 2_1.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210287",
+    "lotNumber": "67805",
+    "productName": "Sema 20mg Lot 67805",
+    "pdfFilename": "Sema_20 1_23.1.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Sema_20 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210286",
+    "lotNumber": "67805",
+    "productName": "Sema 20mg Lot 67805",
+    "pdfFilename": "Sema_20 1_23.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Sema_20 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190209",
+    "lotNumber": "97882",
+    "productName": "Semaglutide 100mg Lot 97882",
+    "pdfFilename": "Semaglutide_100 11_22.1.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_100 11_22.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511190208",
+    "lotNumber": "97882",
+    "productName": "Semaglutide 100mg Lot 97882",
+    "pdfFilename": "Semaglutide_100 11_22.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_100 11_22.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110131",
+    "lotNumber": "125",
+    "productName": "SEMAGLUTIDE 30mg Lot #125",
+    "pdfFilename": "Semaglutide_30 11_13.3.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_30 11_13.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110132",
+    "lotNumber": "20",
+    "productName": "SEMAGLUTIDE 30mg Lot #20",
+    "pdfFilename": "Semaglutide_30 11_13.4.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_30 11_13.4.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110119",
+    "lotNumber": "91782",
+    "productName": "SEMAGLUTIDE 5mg Lot #91782",
+    "pdfFilename": "Semaglutide_5 11_13.1.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_5 11_13.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110060",
+    "lotNumber": "120",
+    "productName": "Semaglutide 5mg Lot #120",
+    "pdfFilename": "Semaglutide_5 11_13.2.pdf",
+    "sourcePath": "COA/GLP-1 (SEMA)/Semaglutide_5 11_13.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130384",
+    "lotNumber": "2025091201-1",
+    "productName": "Semax",
+    "pdfFilename": "Semax 1_16.1.pdf",
+    "sourcePath": "COA/Semax/Semax 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130383",
+    "lotNumber": "2025091201-1",
+    "productName": "Semax",
+    "pdfFilename": "Semax 1_16.pdf",
+    "sourcePath": "COA/Semax/Semax 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210307",
+    "lotNumber": "33040",
+    "productName": "Semax 10mg",
+    "pdfFilename": "Semax_10 1_23.1.pdf",
+    "sourcePath": "COA/Semax/Semax_10 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210306",
+    "lotNumber": "33040",
+    "productName": "Semax 10mg",
+    "pdfFilename": "Semax_10 1_23.pdf",
+    "sourcePath": "COA/Semax/Semax_10 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130268",
+    "lotNumber": "94632",
+    "productName": "Semax 30mg",
+    "pdfFilename": "Semax_30 1_16.1.pdf",
+    "sourcePath": "COA/Semax/Semax_30 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130267",
+    "lotNumber": "94632",
+    "productName": "Semax 30mg",
+    "pdfFilename": "Semax_30 1_16.pdf",
+    "sourcePath": "COA/Semax/Semax_30 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130325",
+    "lotNumber": "2025102101",
+    "productName": "Sermorelin",
+    "pdfFilename": "Sermorelin 1_16.1.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130393",
+    "lotNumber": "2025090201-2",
+    "productName": "Sermorelin",
+    "pdfFilename": "Sermorelin 1_16.2.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130324",
+    "lotNumber": "2025102101",
+    "productName": "Sermorelin",
+    "pdfFilename": "Sermorelin 1_16.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270187",
+    "lotNumber": "17841",
+    "productName": "Sermorelin 10mg",
+    "pdfFilename": "Sermorelin_10 1_28.1.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin_10 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270186",
+    "lotNumber": "17841",
+    "productName": "Sermorelin 10mg",
+    "pdfFilename": "Sermorelin_10 1_28.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin_10 1_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601050180",
+    "lotNumber": "17841",
+    "productName": "Sermorelin 10mg",
+    "pdfFilename": "Sermorelin_10 1_7.1.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin_10 1_7.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601050179",
+    "lotNumber": "17841",
+    "productName": "Sermorelin 10mg",
+    "pdfFilename": "Sermorelin_10 1_7.pdf",
+    "sourcePath": "COA/Sermorelin/Sermorelin_10 1_7.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130303",
+    "lotNumber": "25040024",
+    "productName": "Snap-8",
+    "pdfFilename": "Snap-8 1_16.1.pdf",
+    "sourcePath": "COA/Snap-8/Snap-8 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130302",
+    "lotNumber": "25040024",
+    "productName": "Snap-8",
+    "pdfFilename": "Snap-8 1_16.pdf",
+    "sourcePath": "COA/Snap-8/Snap-8 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270211",
+    "lotNumber": "20457",
+    "productName": "TB4 5mg",
+    "pdfFilename": "TB4_5 1_28.1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB4_5 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270210",
+    "lotNumber": "20457",
+    "productName": "TB4 5mg",
+    "pdfFilename": "TB4_5 1_28.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB4_5 1_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110077",
+    "lotNumber": "#22",
+    "productName": "TB-500 5mg",
+    "pdfFilename": "TB500_5 11_13.1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 11_13.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110076",
+    "lotNumber": "#22",
+    "productName": "TB-500 5mg",
+    "pdfFilename": "TB500_5 11_13.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 11_13.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210293",
+    "lotNumber": "06192",
+    "productName": "TB500 5mg",
+    "pdfFilename": "TB500_5 1_23.1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 1_23.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601210292",
+    "lotNumber": "06192",
+    "productName": "TB500 5mg",
+    "pdfFilename": "TB500_5 1_23.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 1_23.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300281",
+    "lotNumber": "20457",
+    "productName": "TB500 5mg",
+    "pdfFilename": "TB500_5 2_1.1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 2_1.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300280",
+    "lotNumber": "20457",
+    "productName": "TB500 5mg",
+    "pdfFilename": "TB500_5 2_1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/TB500_5 2_1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509220024",
+    "lotNumber": "84362",
+    "productName": "TESA",
+    "pdfFilename": "TESA 9_22.5.pdf",
+    "sourcePath": "COA/Tesamorelin/TESA 9_22.5.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2509220011",
+    "lotNumber": "72165",
+    "productName": "TESA",
+    "pdfFilename": "TESA 9_22.pdf",
+    "sourcePath": "COA/Tesamorelin/TESA 9_22.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270197",
+    "lotNumber": "64029",
+    "productName": "TESA/IPA 10/10mg",
+    "pdfFilename": "Tesa_Ipa10_10 1_28.1.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa10_10 1_28.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601270196",
+    "lotNumber": "64029",
+    "productName": "TESA/IPA 10/10mg",
+    "pdfFilename": "Tesa_Ipa10_10 1_28.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa10_10 1_28.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300287",
+    "lotNumber": "64029",
+    "productName": "TESA/IPA 10/10mg",
+    "pdfFilename": "Tesa_Ipa10_10 2_1.1.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa10_10 2_1.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601300286",
+    "lotNumber": "64029",
+    "productName": "TESA/IPA 10/10mg",
+    "pdfFilename": "Tesa_Ipa10_10 2_1.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa10_10 2_1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190207",
+    "lotNumber": "61174",
+    "productName": "Tesamorelin / Ipamorelin",
+    "pdfFilename": "Tesa_Ipa_10 11_22.1.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa_10 11_22.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511190206",
+    "lotNumber": "61174",
+    "productName": "Tesamorelin / Ipamorelin",
+    "pdfFilename": "Tesa_Ipa_10 11_22.pdf",
+    "sourcePath": "COA/Tesamorelin-Ipamorelin/Tesa_Ipa_10 11_22.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130364",
+    "lotNumber": "2025061801",
+    "productName": "Tesamorelin",
+    "pdfFilename": "Tesamorelin 1_16.1.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130375",
+    "lotNumber": "2025090201-2",
+    "productName": "Tesamorelin",
+    "pdfFilename": "Tesamorelin 1_16.2.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130376",
+    "lotNumber": "2025090201-2",
+    "productName": "Tesamorelin",
+    "pdfFilename": "Tesamorelin 1_16.3.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130363",
+    "lotNumber": "2025061801",
+    "productName": "Tesamorelin",
+    "pdfFilename": "Tesamorelin 1_16.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110096",
+    "lotNumber": "#58932",
+    "productName": "Tesamorelin 10mg",
+    "pdfFilename": "Tesamorelin_10 11_13.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin_10 11_13.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2511110097",
+    "lotNumber": "#58932",
+    "productName": "Tesamorelin 10mg",
+    "pdfFilename": "Tesamorelin_10 1_13.1.pdf",
+    "sourcePath": "COA/Tesamorelin/Tesamorelin_10 1_13.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130313",
+    "lotNumber": "2025032801-1",
+    "productName": "Thymalin",
+    "pdfFilename": "Thymalin 1_16.1.pdf",
+    "sourcePath": "COA/Thymalin/Thymalin 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130312",
+    "lotNumber": "2025032801-1",
+    "productName": "Thymalin",
+    "pdfFilename": "Thymalin 1_16.pdf",
+    "sourcePath": "COA/Thymalin/Thymalin 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130358",
+    "lotNumber": "2025071501",
+    "productName": "Thymosin Alpha 1",
+    "pdfFilename": "Thymosin Alpha-1 1_16.1.pdf",
+    "sourcePath": "COA/Thymosin Alpha-1/Thymosin Alpha-1 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130377",
+    "lotNumber": "2025102401",
+    "productName": "Thymosin Alpha -1",
+    "pdfFilename": "Thymosin Alpha-1 1_16.2.pdf",
+    "sourcePath": "COA/Thymosin Alpha-1/Thymosin Alpha-1 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130378",
+    "lotNumber": "2025102401",
+    "productName": "Thymosin Alpha -1",
+    "pdfFilename": "Thymosin Alpha-1 1_16.3.pdf",
+    "sourcePath": "COA/Thymosin Alpha-1/Thymosin Alpha-1 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130357",
+    "lotNumber": "2025071501",
+    "productName": "Thymosin Alpha 1",
+    "pdfFilename": "Thymosin Alpha-1 1_16.pdf",
+    "sourcePath": "COA/Thymosin Alpha-1/Thymosin Alpha-1 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130360",
+    "lotNumber": "2025081701",
+    "productName": "Thymosin Beta 4",
+    "pdfFilename": "Thymosin Beta 4 1_16.1.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/Thymosin Beta 4 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130379",
+    "lotNumber": "2025091401-1",
+    "productName": "Thymosin Beta 4",
+    "pdfFilename": "Thymosin Beta 4 1_16.2.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/Thymosin Beta 4 1_16.2.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130380",
+    "lotNumber": "2025091401-1",
+    "productName": "Thymosin Beta 4",
+    "pdfFilename": "Thymosin Beta 4 1_16.3.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/Thymosin Beta 4 1_16.3.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130359",
+    "lotNumber": "2025081701",
+    "productName": "Thymosin Beta 4",
+    "pdfFilename": "Thymosin Beta 4 1_16.pdf",
+    "sourcePath": "COA/TB-500 (Thymosin Beta4)/Thymosin Beta 4 1_16.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130278",
+    "lotNumber": "49486",
+    "productName": "Tirz 10mg Lot 49486",
+    "pdfFilename": "Tirz_10 1_16.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130277",
+    "lotNumber": "49486",
+    "productName": "Tirz 10mg Lot 49486",
+    "pdfFilename": "Tirz_10 1_16.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210298",
+    "lotNumber": "74679",
+    "productName": "Tirz 10mg Lot 74679",
+    "pdfFilename": "Tirz_10 1_23.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210299",
+    "lotNumber": "74679",
+    "productName": "Tirz 10mg Lot 74679",
+    "pdfFilename": "Tirz_10 1_23.2.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 1_23.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210276",
+    "lotNumber": "86891",
+    "productName": "Tirz 10mg Lot 86891",
+    "pdfFilename": "Tirz_10 1_23.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300261",
+    "lotNumber": "43047",
+    "productName": "TIRZ 10mg Lot 43047",
+    "pdfFilename": "Tirz_10 2_1.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300260",
+    "lotNumber": "43047",
+    "productName": "TIRZ 10mg Lot 43047",
+    "pdfFilename": "Tirz_10 2_1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_10 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210301",
+    "lotNumber": "76431",
+    "productName": "Tirz 15mg Lot 76431",
+    "pdfFilename": "Tirz_15 1_23.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_15 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210300",
+    "lotNumber": "76431",
+    "productName": "Tirz 15mg Lot 76431",
+    "pdfFilename": "Tirz_15 1_23.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_15 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130286",
+    "lotNumber": "03942",
+    "productName": "Tirz 30mg Lot 03942",
+    "pdfFilename": "Tirz_30 1_16.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_30 1_16.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130285",
+    "lotNumber": "03942",
+    "productName": "Tirz 30mg Lot 03942",
+    "pdfFilename": "Tirz_30 1_16.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_30 1_16.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300259",
+    "lotNumber": "41704",
+    "productName": "TIRZ 30mg Lot 41704",
+    "pdfFilename": "Tirz_30 2_1.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_30 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300258",
+    "lotNumber": "41704",
+    "productName": "TIRZ 30mg Lot 41704",
+    "pdfFilename": "Tirz_30 2_1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_30 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210297",
+    "lotNumber": "67806",
+    "productName": "Tirz 40mg Lot 67806",
+    "pdfFilename": "Tirz_40 1_23.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_40 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210296",
+    "lotNumber": "67806",
+    "productName": "Tirz 40mg Lot 67806",
+    "pdfFilename": "Tirz_40 1_23.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_40 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300265",
+    "lotNumber": "39940",
+    "productName": "TIRZ 50mg Lot 39940",
+    "pdfFilename": "Tirz_50 2_1.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_50 2_1.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601300264",
+    "lotNumber": "39940",
+    "productName": "TIRZ 50mg Lot 39940",
+    "pdfFilename": "Tirz_50 2_1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_50 2_1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210257",
+    "lotNumber": "67807",
+    "productName": "Tirz 60mg Lot 67807",
+    "pdfFilename": "Tirz_60 1_23.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_60 1_23.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601210256",
+    "lotNumber": "67807",
+    "productName": "Tirz 60mg Lot 67807",
+    "pdfFilename": "Tirz_60 1_23.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirz_60 1_23.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270205",
+    "lotNumber": "62690",
+    "productName": "Tirzepatide 10mg Lot 62690",
+    "pdfFilename": "Tirzepatide_10 1_28.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_10 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270204",
+    "lotNumber": "62690",
+    "productName": "Tirzepatide 10mg Lot 62690",
+    "pdfFilename": "Tirzepatide_10 1_28.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_10 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110129",
+    "lotNumber": "12456",
+    "productName": "Tirzepatide 20mg Lot #12456",
+    "pdfFilename": "Tirzepatide_20 11_13.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_20 11_13.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110088",
+    "lotNumber": "27",
+    "productName": "Tirzepatide 20mg Lot #27",
+    "pdfFilename": "Tirzepatide_20 11_13.2.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_20 11_13.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110093",
+    "lotNumber": "172",
+    "productName": "Tirzepatide 30mg Lot #172",
+    "pdfFilename": "Tirzepatide_30 11_13.3.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_30 11_13.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110110",
+    "lotNumber": "13210",
+    "productName": "TIRZEPATIDE 30mg Lot #13210",
+    "pdfFilename": "Tirzepatide_30 11_13.4.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_30 11_13.4.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2511110111",
+    "lotNumber": "13210",
+    "productName": "TIRZEPATIDE 30mg Lot #13210",
+    "pdfFilename": "Tirzepatide_30 11_13.5.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_30 11_13.5.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270193",
+    "lotNumber": "39940",
+    "productName": "Tirzepatide 50mg Lot 39940",
+    "pdfFilename": "Tirzepatide_50 1_28.1.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_50 1_28.1.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270214",
+    "lotNumber": "42469",
+    "productName": "Tirzepatide 50mg Lot 42469",
+    "pdfFilename": "Tirzepatide_50 1_28.2.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_50 1_28.2.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270215",
+    "lotNumber": "42469",
+    "productName": "Tirzepatide 50mg Lot 42469",
+    "pdfFilename": "Tirzepatide_50 1_28.3.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_50 1_28.3.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601270192",
+    "lotNumber": "39940",
+    "productName": "Tirzepatide 50mg Lot 39940",
+    "pdfFilename": "Tirzepatide_50 1_28.pdf",
+    "sourcePath": "COA/GLP-2 (Tirz)/Tirzepatide_50 1_28.pdf",
+    "source": "3.xlsx"
+  },
+  {
+    "accessionNumber": "2601130305",
+    "lotNumber": "2025061401",
+    "productName": "VIP",
+    "pdfFilename": "VIP 1_16.1.pdf",
+    "sourcePath": "COA/VIP/VIP 1_16.1.pdf",
+    "source": "2.xlsx"
+  },
+  {
+    "accessionNumber": "2601130304",
+    "lotNumber": "2025061401",
+    "productName": "VIP",
+    "pdfFilename": "VIP 1_16.pdf",
+    "sourcePath": "COA/VIP/VIP 1_16.pdf",
+    "source": "2.xlsx"
+  }
+]

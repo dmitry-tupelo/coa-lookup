@@ -1,8 +1,7 @@
 import { Router } from 'express';
 import z from 'zod';
 import { PDF_URL_PREFIX } from '../config.js';
-import { searchByLot } from './coa.queries.js';
-import { getByAccession } from './coa.service.js';
+import { getByAccession, searchByLot } from './coa.service.js';
 
 export const coaRouter = Router();
 
@@ -29,7 +28,11 @@ coaRouter.get("/:accession/pdf", async (req, res, next) => {
             res.status(404).json({error: "COA not found"})
             return;
         }
-        res.redirect(`${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`)
+        // Blob returns a fully-encoded absolute URL; the local static path is
+        // the fallback for rows that have not been uploaded yet.
+        res.redirect(
+            coa.pdfUrl ?? `${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`
+        )
     }
     catch (error) {
         next(error)

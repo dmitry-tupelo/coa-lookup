@@ -48,3 +48,10 @@ frontend/.env
 
 # backend build output
 backend/dist
+
+# COA source archive: 575 MB of certificate PDFs plus the spreadsheets they were
+# extracted from. Deliberately not committed — the extracted records live in
+# backend/seed/coa.json and the PDFs are served from Vercel Blob.
+# Keep a copy outside the repo: Blob is the delivery copy, not a backup.
+COA/
+/*.xlsx
