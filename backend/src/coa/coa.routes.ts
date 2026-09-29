@@ -10,31 +10,21 @@ const searchQuerySchema = z.object({
 })
 
 
-coaRouter.get('/', async (req, res, next) => {
-    try {
-        const {lot} = searchQuerySchema.parse(req.query);
-        const results = await searchByLot(lot);
-        res.json({found: results.length > 0, results})
-    }
-    catch (error) {
-        next(error)
-    }
+coaRouter.get('/', async (req, res) => {
+    const {lot} = searchQuerySchema.parse(req.query);
+    const results = await searchByLot(lot);
+    res.json({found: results.length > 0, results})
 })
 
-coaRouter.get("/:accession/pdf", async (req, res, next) => {
-    try{
-        const coa = await getByAccession(req.params.accession);
-        if(!coa) {
-            res.status(404).json({error: "COA not found"})
-            return;
-        }
-        // Blob returns a fully-encoded absolute URL; the local static path is
-        // the fallback for rows that have not been uploaded yet.
-        res.redirect(
-            coa.pdfUrl ?? `${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`
-        )
+coaRouter.get("/:accession/pdf", async (req, res) => {
+    const coa = await getByAccession(req.params.accession);
+    if(!coa) {
+        res.status(404).json({error: "COA not found"})
+        return;
     }
-    catch (error) {
-        next(error)
-    }
+    // Blob returns a fully-encoded absolute URL; the local static path is
+    // the fallback for rows that have not been uploaded yet.
+    res.redirect(
+        coa.pdfUrl ?? `${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`
+    )
 })

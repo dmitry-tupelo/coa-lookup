@@ -4,6 +4,7 @@ import { coaRouter } from "./coa/coa.routes.js";
 import { PUBLIC_DIR } from "./config.js";
 import { env } from "./env.js";
 import { errorHandler } from "./middleware/errorHandler.js";
+import { notFound } from "./middleware/notFound.js";
 
 const app = express();
 
@@ -15,6 +16,7 @@ app.use(express.static(PUBLIC_DIR));
 
 app.use("/coa", coaRouter);
 
+app.use(notFound)
 app.use(errorHandler);
 
 app.listen(env.PORT, () => console.log(`API on :${env.PORT}`));
