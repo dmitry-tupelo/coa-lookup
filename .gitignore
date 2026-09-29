@@ -55,3 +55,6 @@ backend/dist
 # Keep a copy outside the repo: Blob is the delivery copy, not a backup.
 COA/
 /*.xlsx
+
+@AGENTS.md
+@CLAUDE.md

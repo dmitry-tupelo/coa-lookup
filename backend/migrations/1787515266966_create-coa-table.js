@@ -3,7 +3,7 @@
  */
 export const shorthands = undefined;
 
-exports.up = (pgm) => {
+export const up = (pgm) => {
   pgm.createTable("coa", {
     id: "id",
     accession_number: { type: "text", notNull: true, unique: true },
@@ -20,6 +20,6 @@ exports.up = (pgm) => {
   pgm.createIndex("coa", "lot_number");
 };
 
-exports.down = (pgm) => {
+export const down = (pgm) => {
   pgm.dropTable("coa");
 };
