@@ -9,7 +9,8 @@
     "start": "node dist/index.js",
     "migrate": "node --env-file=.env node_modules/.bin/node-pg-migrate",
     "seed": "tsx src/scripts/seed.ts",
-    "upload-pdfs": "tsx src/scripts/upload-pdfs.ts"
+    "upload-pdfs": "tsx src/scripts/upload-pdfs.ts",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -27,9 +28,12 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/node": "^26.2.0",
+    "@types/supertest": "^7.2.1",
     "node-pg-migrate": "^9.0.0",
     "pg": "^8.23.0",
+    "supertest": "^7.3.0",
     "tsx": "^4.23.12",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^5.0.2"
   }
 }
