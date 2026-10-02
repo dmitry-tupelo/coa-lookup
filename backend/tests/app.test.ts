@@ -52,3 +52,12 @@ describe("GET /coa/:accession/pdf", () => {
         expect(res.body.error).toBe("COA not found");
     })
 })
+
+describe("GET /health", () => {
+    it('successful health check', async () => {
+        const res  = await request(app).get('/health');
+
+        expect(res.status).toBe(200);
+        expect(res.body.health).toBe(true)
+    })
+})
