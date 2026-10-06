@@ -1,5 +1,6 @@
 import cors from "cors";
 import express from "express";
+import helmet from "helmet";
 import { randomUUID } from "node:crypto";
 import { pinoHttp } from 'pino-http';
 import { coaRouter } from "./coa/coa.routes.js";
@@ -17,6 +18,7 @@ app.use(pinoHttp({logger: logger, genReqId: function(req, res) {
     res.setHeader('X-Request-Id', reqID);
     return reqID;
 }}));
+app.use(helmet())
 app.use(cors({ origin: env.CORS_ORIGIN }));
 app.use(express.json());
 

@@ -61,3 +61,16 @@ describe("GET /health", () => {
         expect(res.body.health).toBe(true)
     })
 })
+
+describe("Security header", () => {
+    it('x-powered-by doesn\'t exist', async () => {
+        const res = await request(app).get("/whatever");
+
+        expect(res.headers['x-powered-by']).toBe(undefined);
+    })
+    it('x-content-type-options exist and equal nosniff', async () => {
+        const res = await request(app).get('/whatever');
+
+        expect(res.headers['x-content-type-options']).toBe('nosniff')
+    })
+})
