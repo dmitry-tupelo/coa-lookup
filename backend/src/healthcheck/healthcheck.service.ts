@@ -1,3 +1,4 @@
+import { logger } from "../logger.js";
 import { healthCheck as healthCheckQuery } from "./healthcheck.queries.js";
 
 export async function healthCheck() {
@@ -5,8 +6,8 @@ export async function healthCheck() {
         await healthCheckQuery();
         return true;
     }
-    catch {
-        console.error('DB is down');
+    catch(err) {
+        logger.error(err, "DB is down")
         return false
     }
 }
