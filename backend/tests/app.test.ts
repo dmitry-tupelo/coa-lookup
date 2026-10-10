@@ -1,6 +1,7 @@
 import request from 'supertest';
 import { describe, expect, it } from 'vitest';
 import { app } from "../src/app.js";
+import { env } from '../src/env.js';
 
 
 describe("GET /coa", () => {
@@ -72,5 +73,42 @@ describe("Security header", () => {
         const res = await request(app).get('/whatever');
 
         expect(res.headers['x-content-type-options']).toBe('nosniff')
+    })
+})
+
+describe("Admin auth", () => {
+    it('without header', async () => {
+        const res = await request(app).get('/admin/ping');
+
+        expect(res.status).toBe(401);
+        expect(res.body.error).toBe("Unauthorized");
+    })
+
+    it('wrong key', async () => {
+        const res = await request(app).get('/admin/ping').set("Authorization", "Bearer 15bde954e614b966062bd2bd00f32ef66d0c24cd49c1093b9eb8be75baa68a1c");
+        
+        expect(res.status).toBe(401);
+        expect(res.body.error).toBe("Unauthorized");
+    })
+
+    it('Malformed Bearer prefix', async () => {
+        const res = await request(app).get('/admin/ping').set("Authorization", `Bearer${env.ADMIN_API_KEY}`);
+        
+        expect(res.status).toBe(401);
+        expect(res.body.error).toBe("Unauthorized");
+    })
+
+    it("key wrong length", async () => {
+        const res = await request(app).get('/admin/ping').set("Authorization", `Bearer test length`);
+
+        expect(res.status).toBe(401);
+        expect(res.body.error).toBe("Unauthorized");
+    })
+
+    it('real key', async () => {
+        const res = await request(app).get('/admin/ping').set('Authorization', `Bearer ${env.ADMIN_API_KEY}`);
+
+        expect(res.status).toBe(200);
+        expect(res.body.ok).toBe(true)
     })
 })

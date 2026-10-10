@@ -5,6 +5,7 @@ export const logger = pino({
     transport: env.NODE_ENV === ENV.DEV ? {
         target: 'pino-pretty'
     } : undefined,
-    level: env.NODE_ENV === ENV.TEST ? LOG_LEVEL.SILENT : env.LOG_LEVEL
+    level: env.NODE_ENV === ENV.TEST ? LOG_LEVEL.SILENT : env.LOG_LEVEL,
+    redact: ['req.headers.authorization'] 
 });
 

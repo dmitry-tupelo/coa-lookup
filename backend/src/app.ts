@@ -3,6 +3,7 @@ import express from "express";
 import helmet from "helmet";
 import { randomUUID } from "node:crypto";
 import { pinoHttp } from 'pino-http';
+import { adminRouter } from "./admin/admin.routes.js";
 import { coaRouter } from "./coa/coa.routes.js";
 import { PUBLIC_DIR } from "./config.js";
 import { env } from "./env.js";
@@ -10,6 +11,7 @@ import { healthCheckRouter } from "./healthcheck/healthcheck.routes.js";
 import { logger } from "./logger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { notFound } from "./middleware/notFound.js";
+import { requireApiKey } from "./middleware/requireApiKey.js";
 
 export const app = express();
 
@@ -27,6 +29,8 @@ app.use(express.static(PUBLIC_DIR));
 
 app.use("/health", healthCheckRouter);
 app.use("/coa", coaRouter);
+
+app.use('/admin', requireApiKey, adminRouter);
 
 app.use(notFound)
 app.use(errorHandler);

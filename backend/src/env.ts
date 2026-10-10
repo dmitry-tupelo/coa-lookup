@@ -24,6 +24,7 @@ const envSchema = z.object({
     CORS_ORIGIN: z.string().default("http://localhost:3000"),
     NODE_ENV: z.enum(ENV).default(ENV.PROD),
     LOG_LEVEL: z.enum(LOG_LEVEL).default(LOG_LEVEL.INFO),
+    ADMIN_API_KEY: z.string().min(32),
 })
 
 export const env = envSchema.parse(process.env)
