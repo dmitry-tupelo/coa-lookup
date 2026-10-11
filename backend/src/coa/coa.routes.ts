@@ -18,13 +18,13 @@ coaRouter.get('/', async (req, res) => {
 
 coaRouter.get("/:accession/pdf", async (req, res) => {
     const coa = await getByAccession(req.params.accession);
-    if(!coa) {
-        res.status(404).json({error: "COA not found"})
-        return;
-    }
-    // Blob returns a fully-encoded absolute URL; the local static path is
-    // the fallback for rows that have not been uploaded yet.
-    res.redirect(
-        coa.pdfUrl ?? `${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`
-    )
+    if(!coa) return res.status(404).json({error: "COA not found"})
+
+    // Blob returns a fully-encoded absolute URL.
+    if(coa.pdfUrl) return res.redirect(coa.pdfUrl);
+
+    // Local fallback for rows that have not been uploaded to Blob yet.
+    if(coa.pdfFilename) return res.redirect(`${PDF_URL_PREFIX}/${encodeURIComponent(coa.pdfFilename)}`);
+
+    return res.status(404).json({error: "COA PDF file not available yet"});
 })

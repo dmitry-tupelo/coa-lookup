@@ -6,7 +6,7 @@ export const CoaSchema = z.object({
     accessionNumber: z.string(),
     lotNumber: z.string(),
     productName: z.string(),
-    pdfFilename: z.string(),
+    pdfFilename: z.string().nullable(),
     // Null until upload-pdfs.ts has pushed the file to Vercel Blob; such rows
     // fall back to the file served from public/pdfs.
     // nullish, not nullable: if this build reaches a database where the
