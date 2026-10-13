@@ -53,7 +53,7 @@ backend/dist
 # extracted from. Deliberately not committed — the extracted records live in
 # backend/seed/coa.json and the PDFs are served from Vercel Blob.
 # Keep a copy outside the repo: Blob is the delivery copy, not a backup.
-COA/
+/COA/
 /*.xlsx
 
 @AGENTS.md

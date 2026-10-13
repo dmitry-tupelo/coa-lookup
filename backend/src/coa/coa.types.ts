@@ -18,3 +18,5 @@ export const CoaSchema = z.object({
 });
 
 export type Coa = z.infer<typeof CoaSchema>;
+
+export type CoaInsert = Pick<Coa, "lotNumber" | "productName" | "accessionNumber">;

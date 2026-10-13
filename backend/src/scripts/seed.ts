@@ -13,6 +13,7 @@ import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
+import { normalizeLot } from "../coa/normalizeLot.js";
 import { PDF_URL_PREFIX, PUBLIC_DIR } from "../config.js";
 import { sql } from "../db.js";
 
@@ -55,7 +56,7 @@ async function main() {
       accessionNumber,
       // searchByLot() normalises the query the same way, so the stored value
       // has to be normalised too or exact-match lookups miss.
-      lotNumber: lotNumber.toUpperCase(),
+      lotNumber: normalizeLot(lotNumber),
       productName,
       pdfFilename,
       pdfUrl: blobUrls[pdfFilename] ?? null,
