@@ -1,6 +1,6 @@
 import { Router } from "express";
 import z from "zod";
-import { createCoa } from "../coa/coa.service.js";
+import { createCoa, getByAccession } from "../coa/coa.service.js";
 
 export const adminRouter = Router();
 
@@ -17,3 +17,10 @@ adminRouter.post("/coa", async (req, res) =>  {
     const createdCoa = await createCoa(requestBody)
     return res.status(201).location(`/admin/coa/${encodeURIComponent(createdCoa.accessionNumber)}`).json(createdCoa)
 });
+
+adminRouter.get("/coa/:accession", async (req, res) => {
+  const coa = await getByAccession(req.params.accession);
+  if(!coa) return res.status(404).json({error: "COA not found"})
+
+  return res.json(coa)
+})

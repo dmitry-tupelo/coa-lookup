@@ -9,7 +9,7 @@ export const errorHandler: ErrorRequestHandler = (err, req, res, _next) => {
   }
   if(err.status && typeof err.status === 'number' && (err.status >= 400 && err.status <500 )) {
     req.log.warn(err, 'Client error')
-    res.status(err.status).json({error: STATUS_CODES[err.status]})
+    res.status(err.status).json({error: err.expose ? err.message : STATUS_CODES[err.status]})
     return;
   }
   req.log.error(err, "Unhandled error");
