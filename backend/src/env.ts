@@ -25,6 +25,7 @@ const envSchema = z.object({
     NODE_ENV: z.enum(ENV).default(ENV.PROD),
     LOG_LEVEL: z.enum(LOG_LEVEL).default(LOG_LEVEL.INFO),
     ADMIN_API_KEY: z.string().min(32),
+    BLOB_READ_WRITE_TOKEN: z.string().startsWith("vercel_blob_rw_"),
 })
 
 export const env = envSchema.parse(process.env)

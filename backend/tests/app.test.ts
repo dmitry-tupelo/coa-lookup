@@ -1,6 +1,7 @@
 import request from 'supertest';
-import { describe, expect, it } from 'vitest';
+import { afterEach, beforeAll, describe, expect, it } from 'vitest';
 import { app } from "../src/app.js";
+import { sql } from '../src/db.js';
 import { env } from '../src/env.js';
 
 
@@ -112,3 +113,61 @@ describe("Admin auth", () => {
         expect(res.body.ok).toBe(true)
     })
 })
+
+describe("Admin: create COA", () => {
+    const authHeader = {Authorization: `Bearer ${env.ADMIN_API_KEY}`};
+    
+    const cleanup = async () => {
+        await sql`DELETE FROM coa WHERE accession_number LIKE 'TEST-%'`;
+    }
+
+    beforeAll(cleanup);
+    afterEach(cleanup);
+
+
+    it("POST → 201, Location, normalized lot", async () => {
+        const testCoa = {"lotNumber": "test-0001", "productName": "TEST-0001", "accessionNumber": "TEST-0001"}
+
+        const res = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+
+        expect(res.status).toBe(201);
+        expect(res.headers.location).toBe(`/admin/coa/${testCoa.accessionNumber}`);
+        expect(res.body.lotNumber).toBe('TEST-0001');
+    });
+    it("GET by Location → 200 and same body", async () => { 
+        const testCoa = {"lotNumber": "TEST-0001", "productName": "TEST-0001", "accessionNumber": "TEST-0001"}
+
+        const insertCoaRes = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+        const res = await request(app).get(insertCoaRes.headers.location).set(authHeader);
+
+        expect(res.status).toBe(200);
+        expect(res.body).toEqual(insertCoaRes.body)
+    });
+    it("repeat POST → 409", async () => {
+        const testCoa = {"lotNumber": "test-0001", "productName": "TEST-0001", "accessionNumber": "TEST-0001"}
+
+        const res1 = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+        const res2 = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+        
+        expect(res1.status).toBe(201);
+        expect(res2.status).toBe(409);
+        expect(res2.body.error).toBe(`COA with number ${testCoa.accessionNumber} already exists`)
+    });
+    it("invalid body → 400", async () => {
+        const testCoa = {"lotNumber": "test-0001", "accessionNumber": "TEST-0001"}
+
+        const res = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+        
+        expect(res.status).toBe(400);
+        expect(res.body.error).toBe('Invalid request')
+    });
+    it("extra field → 400",async () => {
+        const testCoa = {"extraField": "test","lotNumber": "test-0001", "productName": "TEST-0001", "accessionNumber": "TEST-0001"}
+
+        const res = await request(app).post('/admin/coa').send(testCoa).set(authHeader);
+        
+        expect(res.status).toBe(400);
+        expect(res.body.error).toBe('Invalid request')
+
+    });
+});

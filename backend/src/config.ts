@@ -6,3 +6,5 @@ import path from "node:path";
 export const PUBLIC_DIR = path.resolve("public");
 
 export const PDF_URL_PREFIX = "/pdfs";
+
+export const ALLOWED_PDF_FILESIZE_BYTES = 5 * 1024 * 1024;
