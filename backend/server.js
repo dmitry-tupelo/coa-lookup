@@ -10,4 +10,9 @@
 // Vercel turns the default-exported app into a function, so src/index.ts
 // (app.listen, signal handling, graceful shutdown) is only used when the
 // server runs as a long-lived process: `npm start`, `npm run dev`, Docker.
+
+// Vercel only accepts a candidate entrypoint whose source imports "express";
+// without this line it skips this file and falls back to src/app.ts.
+import "express";
+
 export { app as default } from "./dist/app.js";
