@@ -6,8 +6,7 @@ export async function uploadPdf (pathname: string, body: Buffer): Promise<string
           access: "public",
           contentType: "application/pdf",
           token: env.BLOB_READ_WRITE_TOKEN,
-          addRandomSuffix: false,
-          allowOverwrite: true,
+          addRandomSuffix: true,
     });
 
     return uploadBlob.url

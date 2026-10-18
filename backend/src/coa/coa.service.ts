@@ -1,6 +1,7 @@
 import createError from 'http-errors';
 import postgres from 'postgres';
-import { getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery } from './coa.queries.js';
+import { uploadPdf } from '../storage/blob.js';
+import { getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery } from './coa.queries.js';
 import type { Coa, CoaInsert } from './coa.types.js';
 import { normalizeLot } from './normalizeLot.js';
 
@@ -23,4 +24,19 @@ export async function createCoa(coa: CoaInsert): Promise<Coa> {
         }
         throw error;
     }
+}
+
+export async function uploadCoaPdf(accessionNumber: string, file: Buffer): Promise<Coa> {
+    const notFound = `COA with number ${accessionNumber} not found`;
+
+    const coa = await getByAccessionQuery(accessionNumber);
+    if (!coa) throw createError(404, notFound);
+
+    const safeName = accessionNumber.replaceAll("/", "_");
+    const url = await uploadPdf(`coa/${safeName}.pdf`, file);
+
+    const updated = await updateCoaPdfQuery(accessionNumber, url);
+    if (!updated) throw createError(404, notFound);
+
+    return updated;
 }

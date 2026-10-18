@@ -23,3 +23,11 @@ export async function insertCoa(coa: CoaInsert ): Promise<Coa> {
     RETURNING *`
     return CoaSchema.parse(rows[0])
 }
+
+export async function updateCoaPdf(accessionNumber: string, pdfUrl: string): Promise<Coa | null> {
+    const rows = await sql`
+    UPDATE coa SET pdf_url = ${pdfUrl} WHERE accession_number = ${accessionNumber} RETURNING *;
+    `;
+    if(rows.length === 0) return null;
+    return CoaSchema.parse(rows[0]);
+}

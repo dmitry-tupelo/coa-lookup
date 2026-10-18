@@ -1,7 +1,7 @@
 import { Router } from "express";
 import multer from "multer";
 import z from "zod";
-import { createCoa, getByAccession } from "../coa/coa.service.js";
+import { createCoa, getByAccession, uploadCoaPdf } from "../coa/coa.service.js";
 import { isPdf } from "../coa/isPdf.js";
 import { ALLOWED_PDF_FILESIZE_BYTES } from "../config.js";
 
@@ -13,7 +13,7 @@ const CreateCoaBodySchema = z.strictObject({
   productName: z.string().trim().min(1, "Product name required").max(100),
 });
 
-const CreatePdfSchema = z.string().trim().min(1, "Accession number required").max(100);
+const UploadPdfSchema = z.string().trim().min(1, "Accession number required").max(100);
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage, limits: { fileSize: ALLOWED_PDF_FILESIZE_BYTES }});
@@ -42,11 +42,8 @@ adminRouter.put("/coa/:accession/pdf", middlewareMulter, async (req, res) => {
     return res.status(415).json({error: 'Please, upload PDF'});
   }
   
-  const requestBody = CreatePdfSchema.parse(req.params.accession)
-  const coa = await getByAccession(requestBody);
-  if(!coa) {
-    return res.status(404).json({error: "COA not found"});
-  }
+  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
+  const result = await uploadCoaPdf(accessionNumber, req.file.buffer)
 
-  return res.json({filesize: req.file.size, mime: req.file.mimetype});
+  return res.json(result);
 })
