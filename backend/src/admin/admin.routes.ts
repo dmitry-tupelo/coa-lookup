@@ -1,8 +1,8 @@
 import { Router } from "express";
 import multer from "multer";
 import z from "zod";
+import { isPdf } from "../coa/coa.helpers.js";
 import { createCoa, getByAccession, uploadCoaPdf } from "../coa/coa.service.js";
-import { isPdf } from "../coa/isPdf.js";
 import { ALLOWED_PDF_FILESIZE_BYTES } from "../config.js";
 
 export const adminRouter = Router();

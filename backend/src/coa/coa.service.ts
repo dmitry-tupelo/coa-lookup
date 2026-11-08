@@ -1,9 +1,18 @@
 import createError from 'http-errors';
 import postgres from 'postgres';
-import { uploadPdf } from '../storage/blob.js';
+import { logger } from '../logger.js';
+import { removePdf, uploadPdf } from '../storage/blob.js';
+import { normalizeLot } from './coa.helpers.js';
 import { getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery } from './coa.queries.js';
 import type { Coa, CoaInsert } from './coa.types.js';
-import { normalizeLot } from './normalizeLot.js';
+
+export const removePdfBestEffort = async (url: string) => {
+  try {
+      await removePdf(url);
+  } catch (removeErr) {
+      logger.warn({ err: removeErr, url }, "Failed to remove orphaned PDF");
+  }
+}
 
 export async function searchByLot(rawLot: string): Promise<Coa[]> {
     return searchByLotQuery(normalizeLot(rawLot));
@@ -35,8 +44,21 @@ export async function uploadCoaPdf(accessionNumber: string, file: Buffer): Promi
     const safeName = accessionNumber.replaceAll("/", "_");
     const url = await uploadPdf(`coa/${safeName}.pdf`, file);
 
-    const updated = await updateCoaPdfQuery(accessionNumber, url);
-    if (!updated) throw createError(404, notFound);
+    let updated;
+    try { 
+        updated = await updateCoaPdfQuery(accessionNumber, url);
+        if(!updated) {
+            throw createError(404, notFound);
+
+        }
+        if(coa.pdfUrl){
+            await removePdfBestEffort(coa.pdfUrl);
+        }
+    } catch(err) {
+        await removePdfBestEffort(url);
+        throw err;
+    }
 
     return updated;
+
 }

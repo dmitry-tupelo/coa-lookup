@@ -1,4 +1,4 @@
-import { put } from "@vercel/blob";
+import { del, put } from "@vercel/blob";
 import { env } from "../env.js";
 
 export async function uploadPdf (pathname: string, body: Buffer): Promise<string> {
@@ -10,4 +10,12 @@ export async function uploadPdf (pathname: string, body: Buffer): Promise<string
     });
 
     return uploadBlob.url
+}
+
+export async function removePdf (pathname: string): Promise<void> {
+  const removeBlob = await del(pathname, {
+    token: env.BLOB_READ_WRITE_TOKEN
+  })
+
+  return removeBlob;
 }

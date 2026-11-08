@@ -13,7 +13,7 @@ import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { z } from "zod";
-import { normalizeLot } from "../coa/normalizeLot.js";
+import { normalizeLot } from "../coa/coa.helpers.js";
 import { PDF_URL_PREFIX, PUBLIC_DIR } from "../config.js";
 import { sql } from "../db.js";
 

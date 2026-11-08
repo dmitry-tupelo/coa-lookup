@@ -10,8 +10,8 @@
 
 import { del } from "@vercel/blob";
 import { readFile } from "node:fs/promises";
+import { isPdf } from "../src/coa/coa.helpers.js";
 import { env } from "../src/env.js";
-import { isPdf } from "../src/coa/isPdf.js";
 import { uploadPdf } from "../src/storage/blob.js";
 
 const body = await readFile("public/pdfs/ACC-001.pdf");

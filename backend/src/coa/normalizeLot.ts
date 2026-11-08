@@ -1,1 +1,0 @@
-export const normalizeLot = (lot :string) => lot.trim().toUpperCase();
