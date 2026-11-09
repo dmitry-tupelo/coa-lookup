@@ -1,5 +1,5 @@
-import "dotenv/config"
-import { z } from "zod"
+import "dotenv/config";
+import { z } from "zod";
 
 export enum ENV {
     PROD = "production",

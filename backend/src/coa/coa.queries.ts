@@ -31,3 +31,10 @@ export async function updateCoaPdf(accessionNumber: string, pdfUrl: string): Pro
     if(rows.length === 0) return null;
     return CoaSchema.parse(rows[0]);
 }
+
+export async function deleteCoa(accessionNumber: string): Promise<Coa | null> {
+    const rows = await sql`
+    DELETE FROM coa  WHERE accession_number = ${accessionNumber} RETURNING *`;
+    if(rows.length === 0) return null;
+    return CoaSchema.parse(rows[0]);
+}

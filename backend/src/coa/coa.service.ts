@@ -3,7 +3,7 @@ import postgres from 'postgres';
 import { logger } from '../logger.js';
 import { removePdf, uploadPdf } from '../storage/blob.js';
 import { normalizeLot } from './coa.helpers.js';
-import { getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery } from './coa.queries.js';
+import { deleteCoa as deleteCoaQuery, getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery } from './coa.queries.js';
 import type { Coa, CoaInsert } from './coa.types.js';
 
 export const removePdfBestEffort = async (url: string) => {
@@ -61,4 +61,14 @@ export async function uploadCoaPdf(accessionNumber: string, file: Buffer): Promi
 
     return updated;
 
+}
+
+export async function deleteCoa(accessionNumber: string): Promise<void> {
+    const deleted = await deleteCoaQuery(accessionNumber);
+    if(!deleted) {
+        throw createError(404, `COA with ${accessionNumber} accession number doesn't exist`)
+    }
+    if(deleted.pdfUrl) {
+        await removePdfBestEffort(deleted.pdfUrl);
+    }
 }

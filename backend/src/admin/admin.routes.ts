@@ -2,7 +2,7 @@ import { Router } from "express";
 import multer from "multer";
 import z from "zod";
 import { isPdf } from "../coa/coa.helpers.js";
-import { createCoa, getByAccession, uploadCoaPdf } from "../coa/coa.service.js";
+import { createCoa, deleteCoa, getByAccession, uploadCoaPdf } from "../coa/coa.service.js";
 import { ALLOWED_PDF_FILESIZE_BYTES } from "../config.js";
 
 export const adminRouter = Router();
@@ -46,4 +46,11 @@ adminRouter.put("/coa/:accession/pdf", middlewareMulter, async (req, res) => {
   const result = await uploadCoaPdf(accessionNumber, req.file.buffer)
 
   return res.json(result);
+})
+
+
+adminRouter.delete("/coa/:accession", async (req, res) => {
+  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
+    await deleteCoa(accessionNumber);
+    return res.sendStatus(204);
 })
