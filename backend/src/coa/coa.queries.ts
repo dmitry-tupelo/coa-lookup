@@ -1,5 +1,5 @@
 import { sql } from "../db.js";
-import { CoaSchema, type Coa, type CoaInsert } from "./coa.types.js";
+import { CoaSchema, CoaUpdate, type Coa, type CoaInsert } from "./coa.types.js";
 
 export async function searchByLot(lot: string): Promise<Coa[]> {
     const rows = await sql`
@@ -35,6 +35,14 @@ export async function updateCoaPdf(accessionNumber: string, pdfUrl: string): Pro
 export async function deleteCoa(accessionNumber: string): Promise<Coa | null> {
     const rows = await sql`
     DELETE FROM coa  WHERE accession_number = ${accessionNumber} RETURNING *`;
+    if(rows.length === 0) return null;
+    return CoaSchema.parse(rows[0]);
+}
+
+export async function updateCoa(coa: CoaUpdate, accessionNumber: string): Promise<Coa | null>{
+    const rows = await sql`
+    UPDATE coa SET ${sql(coa)} WHERE accession_number = ${accessionNumber} RETURNING *;
+    `;
     if(rows.length === 0) return null;
     return CoaSchema.parse(rows[0]);
 }
