@@ -3,8 +3,8 @@ import postgres from 'postgres';
 import { logger } from '../logger.js';
 import { removePdf, uploadPdf } from '../storage/blob.js';
 import { normalizeLot } from './coa.helpers.js';
-import { deleteCoa as deleteCoaQuery, getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery } from './coa.queries.js';
-import type { Coa, CoaInsert } from './coa.types.js';
+import { deleteCoa as deleteCoaQuery, getByAccession as getByAccessionQuery, insertCoa, searchByLot as searchByLotQuery, updateCoaPdf as updateCoaPdfQuery, updateCoa as updateCoaQuery } from './coa.queries.js';
+import type { Coa, CoaInsert, CoaUpdate } from './coa.types.js';
 
 export const removePdfBestEffort = async (url: string) => {
   try {
@@ -71,4 +71,17 @@ export async function deleteCoa(accessionNumber: string): Promise<void> {
     if(deleted.pdfUrl) {
         await removePdfBestEffort(deleted.pdfUrl);
     }
+}
+
+export async function updateCoa(accessionNumber: string,coa: CoaUpdate): Promise<Coa>{
+    let normalizedCoa = coa;
+    if(coa.lotNumber) {
+        normalizedCoa = {...coa, lotNumber: normalizeLot(coa.lotNumber)}
+    }
+
+    const updated = await updateCoaQuery(normalizedCoa, accessionNumber);
+    if(!updated) {
+        throw createError(404, `COA with ${accessionNumber} accession number doesn't exist`)
+    }
+    return updated;
 }
