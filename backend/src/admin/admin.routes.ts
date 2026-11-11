@@ -15,7 +15,7 @@ const CreateCoaBodySchema = z.strictObject({
 
 const UpdateCoaBodySchema = CreateCoaBodySchema.omit({accessionNumber: true}).partial().refine((value) => Object.keys(value).length > 0, "Minimum 1 value required")
 
-const UploadPdfSchema = z.string().trim().min(1, "Accession number required").max(100);
+const AccessionParamSchema = z.string().trim().min(1, "Accession number required").max(100);
 
 const storage = multer.memoryStorage();
 const upload = multer({ storage: storage, limits: { fileSize: ALLOWED_PDF_FILESIZE_BYTES }});
@@ -44,7 +44,7 @@ adminRouter.put("/coa/:accession/pdf", middlewareMulter, async (req, res) => {
     return res.status(415).json({error: 'Please, upload PDF'});
   }
   
-  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
+  const accessionNumber = AccessionParamSchema.parse(req.params.accession)
   const result = await uploadCoaPdf(accessionNumber, req.file.buffer)
 
   return res.json(result);
@@ -52,14 +52,14 @@ adminRouter.put("/coa/:accession/pdf", middlewareMulter, async (req, res) => {
 
 
 adminRouter.delete("/coa/:accession", async (req, res) => {
-  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
-    await deleteCoa(accessionNumber);
-    return res.sendStatus(204);
+  const accessionNumber = AccessionParamSchema.parse(req.params.accession)
+  await deleteCoa(accessionNumber);
+  return res.sendStatus(204);
 })
 
 adminRouter.patch("/coa/:accession", async (req, res) => {
   const coa = UpdateCoaBodySchema.parse(req.body);
-  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
+  const accessionNumber = AccessionParamSchema.parse(req.params.accession)
   const result = await updateCoa(accessionNumber, coa)
   
   return res.json(result);

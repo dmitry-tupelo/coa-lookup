@@ -171,3 +171,90 @@ describe("Admin: create COA", () => {
 
     });
 });
+
+describe("Admin: delete COA", () => {
+    const authHeader = {Authorization: `Bearer ${env.ADMIN_API_KEY}`};
+
+    const cleanup = async () => {
+        await sql`DELETE FROM coa WHERE accession_number LIKE 'TEST-%'`;
+    };
+
+    const insertCoa = async () => {
+        await sql`INSERT INTO coa ("accession_number", "lot_number", "product_name") VALUES ('TEST-0001', 'test-0001', 'TEST-0001')`
+    }
+
+    beforeAll(cleanup);
+    afterEach(cleanup);
+
+    it('Existing record', async () => {
+        await insertCoa();
+        const existedCoa = await request(app).get("/admin/coa/TEST-0001").set(authHeader);
+        const deletedCoa = await request(app).delete('/admin/coa/TEST-0001').set(authHeader);
+        const afterDeleteCoa = await request(app).get("/admin/coa/TEST-0001").set(authHeader);
+        
+        expect(existedCoa.status).toBe(200);
+        expect(deletedCoa.body).toStrictEqual({})
+        expect(deletedCoa.status).toBe(204);
+        expect(afterDeleteCoa.status).toBe(404);
+    })
+
+    it('Not existing record -> 404', async () => {
+        const deleteCoa = await request(app).delete('/admin/coa/TEST-0001').set(authHeader);
+
+        expect(deleteCoa.status).toBe(404);
+    })
+
+    it("Without auth header" , async () => {
+        const deleteCoa = await request(app).delete('/admin/coa/TEST-0001');
+
+        expect(deleteCoa.status).toBe(401);
+    })
+})
+
+describe("Admin: Update COA", () => {
+    const authHeader = {Authorization: `Bearer ${env.ADMIN_API_KEY}`};
+
+    const cleanup = async () => {
+        await sql`DELETE FROM coa WHERE accession_number LIKE 'TEST-%'`;
+    };
+
+    const insertCoa = async () => {
+        await sql`INSERT INTO coa ("accession_number", "lot_number", "product_name") VALUES ('TEST-0001', 'test-0001', 'TEST-0001')`
+    }
+
+    beforeAll(cleanup);
+    afterEach(cleanup);
+
+    it("Update only product name", async () => {
+        await insertCoa();
+        const updatedCoa = await request(app).patch('/admin/coa/TEST-0001').send({"productName": "UPDATED-TEST-0001"}).set(authHeader);
+
+        expect(updatedCoa.status).toBe(200);
+        expect(updatedCoa.body.productName).toEqual("UPDATED-TEST-0001");
+        expect(updatedCoa.body.lotNumber).toEqual("test-0001");
+    })
+
+    it("Empty body", async () => {
+        await insertCoa();
+        
+        const updatedCoa = await request(app).patch('/admin/coa/TEST-0001').send({}).set(authHeader);
+
+        expect(updatedCoa.status).toBe(400);
+    })
+
+    it("With accessionNumber", async () => {
+        await insertCoa();
+
+        const updatedCoa = await request(app).patch('/admin/coa/TEST-0001').send({"accessionNumber": "TEST-0001"}).set(authHeader);
+        
+        expect(updatedCoa.status).toBe(400);
+    })
+
+    it("Not existing accessionNumber", async () => {
+        await insertCoa();
+
+        const updatedCoa = await request(app).patch('/admin/coa/TEST-001').send({"productName": "testname"}).set(authHeader);
+        
+        expect(updatedCoa.status).toBe(404);
+    })
+})
