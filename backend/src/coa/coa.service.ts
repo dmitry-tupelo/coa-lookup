@@ -73,7 +73,7 @@ export async function deleteCoa(accessionNumber: string): Promise<void> {
     }
 }
 
-export async function updateCoa(accessionNumber: string,coa: CoaUpdate): Promise<Coa>{
+export async function updateCoa(accessionNumber: string, coa: CoaUpdate): Promise<Coa>{
     let normalizedCoa = coa;
     if(coa.lotNumber) {
         normalizedCoa = {...coa, lotNumber: normalizeLot(coa.lotNumber)}

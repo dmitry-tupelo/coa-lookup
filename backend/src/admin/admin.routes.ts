@@ -2,7 +2,7 @@ import { Router } from "express";
 import multer from "multer";
 import z from "zod";
 import { isPdf } from "../coa/coa.helpers.js";
-import { createCoa, deleteCoa, getByAccession, uploadCoaPdf } from "../coa/coa.service.js";
+import { createCoa, deleteCoa, getByAccession, updateCoa, uploadCoaPdf } from "../coa/coa.service.js";
 import { ALLOWED_PDF_FILESIZE_BYTES } from "../config.js";
 
 export const adminRouter = Router();
@@ -12,6 +12,8 @@ const CreateCoaBodySchema = z.strictObject({
   lotNumber: z.string().trim().min(1, "LOT number required").max(100),
   productName: z.string().trim().min(1, "Product name required").max(100),
 });
+
+const UpdateCoaBodySchema = CreateCoaBodySchema.omit({accessionNumber: true}).partial().refine((value) => Object.keys(value).length > 0, "Minimum 1 value required")
 
 const UploadPdfSchema = z.string().trim().min(1, "Accession number required").max(100);
 
@@ -53,4 +55,13 @@ adminRouter.delete("/coa/:accession", async (req, res) => {
   const accessionNumber = UploadPdfSchema.parse(req.params.accession)
     await deleteCoa(accessionNumber);
     return res.sendStatus(204);
+})
+
+adminRouter.patch("/coa/:accession", async (req, res) => {
+  const coa = UpdateCoaBodySchema.parse(req.body);
+  const accessionNumber = UploadPdfSchema.parse(req.params.accession)
+  const result = await updateCoa(accessionNumber, coa)
+  
+  return res.json(result);
+  
 })
