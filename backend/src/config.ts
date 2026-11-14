@@ -10,3 +10,7 @@ export const PDF_URL_PREFIX = "/pdfs";
 // Vercel Functions reject request bodies over 4.5 MB before they reach
 // Express, and multipart framing adds a little on top of the file itself.
 export const ALLOWED_PDF_FILESIZE_BYTES = 4 * 1024 * 1024;
+
+export const RATE_LIMIT_REQUESTS = 100
+
+export const RATE_LIMIT_PERIOD_MS = 60*60*1000

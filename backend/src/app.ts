@@ -11,6 +11,7 @@ import { healthCheckRouter } from "./healthcheck/healthcheck.routes.js";
 import { logger } from "./logger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { notFound } from "./middleware/notFound.js";
+import { adminRateLimit } from "./middleware/rateLimit.js";
 import { requireApiKey } from "./middleware/requireApiKey.js";
 
 export const app = express();
@@ -27,10 +28,13 @@ app.use(express.json());
 // Serves public/ locally; on Vercel this is ignored and the CDN serves it.
 app.use(express.static(PUBLIC_DIR));
 
+// set proxy trust for rate limiter
+app.set("trust proxy", 1);
+
 app.use("/health", healthCheckRouter);
 app.use("/coa", coaRouter);
 
-app.use('/admin', requireApiKey, adminRouter);
+app.use('/admin', adminRateLimit, requireApiKey, adminRouter);
 
 app.use(notFound)
 app.use(errorHandler);
