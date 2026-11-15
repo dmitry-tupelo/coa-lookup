@@ -1,17 +1,6 @@
-import { Suspense } from "react";
+import { searchCoa } from "@/lib/coa";
+import Form from 'next/form';
 
-import { SearchForm } from "@/components/SearchForm";
-
-// Placeholder shown in the prerendered HTML while SearchForm — which reads
-// the ?lot= query param on the client — hydrates.
-function SearchFormFallback() {
-  return (
-    <div className="flex gap-3">
-      <div className="h-[50px] flex-1 rounded-md border border-zinc-300" />
-      <div className="h-[50px] w-[124px] rounded-md bg-zinc-900 opacity-50" />
-    </div>
-  );
-}
 
 const trustPoints = [
   {
@@ -67,7 +56,11 @@ const compliance = [
   },
 ];
 
-export default function Home() {
+export default async function Home({ searchParams }: PageProps<'/'>) {
+  const searchParamLot = (await searchParams).lot
+  const lot = typeof searchParamLot === 'string' ? searchParamLot : undefined;
+  const searchCoaResult = lot ? await searchCoa(lot) : null;
+
   return (
     <div className="min-h-screen bg-white">
       <header className="border-b border-slate-200 bg-white">
@@ -80,10 +73,6 @@ export default function Home() {
               COA Lookup
             </span>
           </div>
-          <nav className="flex gap-6 text-sm font-medium text-slate-600">
-            <a href="#">Contact Us</a>
-            <a href="#">About Us</a>
-          </nav>
         </div>
       </header>
 
@@ -123,9 +112,30 @@ export default function Home() {
         </div>
 
         <div className="mt-8">
-          <Suspense fallback={<SearchFormFallback />}>
-            <SearchForm />
-          </Suspense>
+          <Form action={"/"} className="flex gap-3">
+            <input
+              type="text"
+              placeholder="Enter LOT number"
+              defaultValue={lot}
+              name="lot"
+              className="flex-1 rounded-md border border-zinc-300 px-4 py-3 text-zinc-900 outline-none focus:border-zinc-900" />
+            <button
+              type="submit"
+              className="rounded-md bg-zinc-900 px-6 py-3 font-medium text-white hover:bg-zinc-800 disabled:opacity-50"
+            >
+              Look up
+            </button>
+          </Form>
+          {searchCoaResult?.found ? searchCoaResult.results.map((coa) => {
+            return (
+              <div key={coa.accessionNumber}>
+                {coa.accessionNumber}
+                {coa.productName}
+              </div>
+            )
+          })
+            : null
+          }
         </div>
         <p className="mt-3 text-sm text-slate-500">
           LOT numbers are not case-sensitive. Remove any spaces.
