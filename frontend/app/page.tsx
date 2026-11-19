@@ -1,5 +1,6 @@
-import { searchCoa } from "@/lib/coa";
+import SearchResults from '@/components/SearchResults';
 import Form from 'next/form';
+import { Suspense } from "react";
 
 
 const trustPoints = [
@@ -59,7 +60,6 @@ const compliance = [
 export default async function Home({ searchParams }: PageProps<'/'>) {
   const searchParamLot = (await searchParams).lot
   const lot = typeof searchParamLot === 'string' ? searchParamLot : undefined;
-  const searchCoaResult = lot ? await searchCoa(lot) : null;
 
   return (
     <div className="min-h-screen bg-white">
@@ -126,15 +126,11 @@ export default async function Home({ searchParams }: PageProps<'/'>) {
               Look up
             </button>
           </Form>
-          {searchCoaResult?.found ? searchCoaResult.results.map((coa) => {
-            return (
-              <div key={coa.accessionNumber}>
-                {coa.accessionNumber}
-                {coa.productName}
-              </div>
-            )
-          })
-            : null
+          {lot ? (
+            <Suspense key={lot} fallback="Searching...">
+              <SearchResults lot={lot} />
+            </Suspense>
+          ) : null
           }
         </div>
         <p className="mt-3 text-sm text-slate-500">
