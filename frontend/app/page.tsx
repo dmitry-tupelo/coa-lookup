@@ -126,6 +126,9 @@ export default async function Home({ searchParams }: PageProps<'/'>) {
               Look up
             </button>
           </Form>
+          <p className="mt-3 text-xs text-slate-500">
+            LOT numbers are not case-sensitive. Remove any spaces.
+          </p>
           {lot ? (
             <Suspense key={lot} fallback="Searching...">
               <SearchResults lot={lot} />
@@ -133,9 +136,6 @@ export default async function Home({ searchParams }: PageProps<'/'>) {
           ) : null
           }
         </div>
-        <p className="mt-3 text-sm text-slate-500">
-          LOT numbers are not case-sensitive. Remove any spaces.
-        </p>
       </main>
 
       <section className="border-y border-slate-200 bg-white py-16">
