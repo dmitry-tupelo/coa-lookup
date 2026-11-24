@@ -1,15 +1,5 @@
-
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:3001";
-
-export interface CoaItem {
-    id: number;
-    accessionNumber: string;
-    lotNumber: string;
-    productName: string;
-    pdfFilename: string | null;
-    pdfUrl: string | null;
-    createdAt: string;
-}
+import { API_URL } from "./constants";
+import { CoaItem } from "./types";
 
 interface ApiSearchResponse  {
     found: boolean;

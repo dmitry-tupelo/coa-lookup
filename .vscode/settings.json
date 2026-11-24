@@ -1,0 +1,6 @@
+{
+  // backend/ and frontend/ pin the same TypeScript (5.9.3); point the editor
+  // at it so VS Code reports the same errors as `tsc` and `npm run build`.
+  "typescript.tsdk": "backend/node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}
